@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python / scratch outputs
+__pycache__/
+scripts/output/
