@@ -1,0 +1,137 @@
+[
+  {
+    "schoolId": "SCH-MC",
+    "schoolName": "목천고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-BJ",
+    "schoolName": "복자여자고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-BI",
+    "schoolName": "북일고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-08-04",
+    "sourceDocument": "북일고 2026학년도 입학생 교육과정 편제표",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-BIY",
+    "schoolName": "북일여자고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-CA",
+    "schoolName": "천안고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-DJ",
+    "schoolName": "천안두정고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-BD",
+    "schoolName": "천안불당고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-SD",
+    "schoolName": "천안신당고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-SY",
+    "schoolName": "천안쌍용고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-US",
+    "schoolName": "천안업성고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-YG",
+    "schoolName": "천안여자고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-OS",
+    "schoolName": "천안오성고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-WB",
+    "schoolName": "천안월봉고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-JA",
+    "schoolName": "천안중앙고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  },
+  {
+    "schoolId": "SCH-CS",
+    "schoolName": "천안청수고등학교",
+    "region": "충남 천안",
+    "curriculumYear": "2026",
+    "lastReviewedAt": "2026-04-01",
+    "sourceDocument": "학교알리미 2026 학교교육과정 편성·운영 공시",
+    "isSample": false
+  }
+]

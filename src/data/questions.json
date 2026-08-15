@@ -1,0 +1,104 @@
+[
+  {
+    "questionId": "Q1",
+    "text": "쉬는 시간이나 방과 후에 나도 모르게 하게 되는 건 뭐예요? (여러 개)",
+    "multi": true,
+    "options": [
+      { "optionId": "Q1-game", "label": "게임하거나 폰·컴퓨터로 뭔가 만들기", "emoji": "🎮", "scores": { "F-ENG": 3, "F-ART": 1 } },
+      { "optionId": "Q1-dig", "label": "궁금한 걸 끝까지 찾아보고 파고들기", "emoji": "🔍", "scores": { "F-NAT": 3, "F-SOC": 1 } },
+      { "optionId": "Q1-build", "label": "손으로 조립하거나 뭔가 고치기", "emoji": "🛠️", "scores": { "F-ENG": 3 } },
+      { "optionId": "Q1-create", "label": "그림·영상·음악 만들기", "emoji": "🎨", "scores": { "F-ART": 3 } },
+      { "optionId": "Q1-care", "label": "친구 고민 들어주고 챙겨주기", "emoji": "💬", "scores": { "F-MED": 2, "F-EDU": 2, "F-SOC": 1 } },
+      { "optionId": "Q1-plan", "label": "사람들 모아서 뭔가 계획하기", "emoji": "📣", "scores": { "F-SOC": 3 } },
+      { "optionId": "Q1-book", "label": "책·이야기·다른 나라 문화 보기", "emoji": "📚", "scores": { "F-HUM": 3 } }
+    ]
+  },
+  {
+    "questionId": "Q2",
+    "text": "이런 건 좀 힘들거나 하기 싫어요. (여러 개, 없으면 넘어가도 돼요)",
+    "multi": true,
+    "options": [
+      { "optionId": "Q2-memo", "label": "외울 게 많은 건 힘들어요", "emoji": "🧠", "scores": { "F-ENG": 1, "F-NAT": 1 } },
+      { "optionId": "Q2-write", "label": "긴 글 쓰는 게 어려워요", "emoji": "✍️", "scores": { "F-NAT": 1, "F-ENG": 1 } },
+      { "optionId": "Q2-num", "label": "숫자·계산이 많은 건 부담돼요", "emoji": "🔢", "scores": { "F-HUM": 1, "F-ART": 1 } },
+      { "optionId": "Q2-present", "label": "사람들 앞에서 발표하는 게 떨려요", "emoji": "🗣️", "scores": { "F-NAT": 1, "F-ENG": 1 } },
+      { "optionId": "Q2-together", "label": "여럿이 같이 하는 것보다 혼자가 편해요", "emoji": "🧍", "scores": { "F-NAT": 1, "F-ENG": 1 } },
+      { "optionId": "Q2-none", "label": "특별히 없어요", "emoji": "😌", "scores": {} }
+    ]
+  },
+  {
+    "questionId": "Q3",
+    "text": "어떤 걸 할 때 제일 뿌듯하고 재미있어요?",
+    "multi": false,
+    "options": [
+      { "optionId": "Q3-solve", "label": "어려운 문제를 풀어서 답을 찾았을 때", "emoji": "🧩", "scores": { "F-NAT": 3, "F-ENG": 2 } },
+      { "optionId": "Q3-make", "label": "직접 만들어서 완성했을 때", "emoji": "🔨", "scores": { "F-ENG": 3, "F-ART": 1 } },
+      { "optionId": "Q3-idea", "label": "남들이 생각 못 한 아이디어가 떠올랐을 때", "emoji": "💡", "scores": { "F-ART": 3, "F-ENG": 1 } },
+      { "optionId": "Q3-help", "label": "누군가를 도와주고 고맙다는 말을 들었을 때", "emoji": "🫶", "scores": { "F-MED": 3, "F-EDU": 2, "F-SOC": 1 } },
+      { "optionId": "Q3-success", "label": "계획한 대로 잘 돼서 성공했을 때", "emoji": "🏆", "scores": { "F-SOC": 3 } }
+    ]
+  },
+  {
+    "questionId": "Q4",
+    "text": "이 중에 관심이 가는 주제를 골라 주세요. (여러 개)",
+    "multi": true,
+    "options": [
+      { "optionId": "Q4-ai", "label": "인공지능·로봇·게임", "emoji": "🤖", "scores": { "F-ENG": 3, "F-NAT": 1 } },
+      { "optionId": "Q4-data", "label": "통계·데이터·돈의 흐름", "emoji": "📊", "scores": { "F-NAT": 2, "F-SOC": 2 } },
+      { "optionId": "Q4-sci", "label": "우주·자연·과학 실험", "emoji": "🔬", "scores": { "F-NAT": 3 } },
+      { "optionId": "Q4-health", "label": "건강·몸·생명", "emoji": "🩺", "scores": { "F-MED": 3 } },
+      { "optionId": "Q4-soc", "label": "사회·법·정치·역사", "emoji": "⚖️", "scores": { "F-SOC": 3, "F-HUM": 1 } },
+      { "optionId": "Q4-world", "label": "다른 나라·언어·여행", "emoji": "🌏", "scores": { "F-HUM": 3 } },
+      { "optionId": "Q4-design", "label": "디자인·영상·패션·요리", "emoji": "🎬", "scores": { "F-ART": 3 } }
+    ]
+  },
+  {
+    "questionId": "Q5",
+    "text": "문제가 생기면 나는 보통 이렇게 해요.",
+    "multi": false,
+    "options": [
+      { "optionId": "Q5-answer", "label": "정답이 딱 있는 게 마음 편해요", "emoji": "✅", "scores": { "F-NAT": 2, "F-ENG": 2 } },
+      { "optionId": "Q5-explore", "label": "여러 방법을 이리저리 탐구해봐요", "emoji": "🌱", "scores": { "F-NAT": 2, "F-HUM": 2 } },
+      { "optionId": "Q5-create", "label": "남들과 다른 나만의 방법을 찾아요", "emoji": "🎨", "scores": { "F-ART": 3, "F-ENG": 1 } },
+      { "optionId": "Q5-collab", "label": "친구들과 의논해서 같이 풀어요", "emoji": "👥", "scores": { "F-SOC": 2, "F-EDU": 2 } }
+    ]
+  },
+  {
+    "questionId": "Q6",
+    "text": "나중에 일할 때, 나는 이런 게 더 좋을 것 같아요.",
+    "multi": false,
+    "options": [
+      { "optionId": "Q6-alone", "label": "조용히 집중해서 혼자 깊게 파고드는 것", "emoji": "🤫", "scores": { "F-NAT": 2, "F-ENG": 2 } },
+      { "optionId": "Q6-team", "label": "여러 사람과 팀으로 함께 하는 것", "emoji": "👫", "scores": { "F-SOC": 2, "F-EDU": 1 } },
+      { "optionId": "Q6-active", "label": "가만히 있기보다 여기저기 다니며 움직이는 것", "emoji": "🏃", "scores": { "F-ENG": 2, "F-MED": 2 } },
+      { "optionId": "Q6-idk", "label": "아직 잘 모르겠어요", "emoji": "🤔", "scores": {} }
+    ]
+  },
+  {
+    "questionId": "Q7",
+    "text": "나중에 어떤 사람이 되면 뿌듯할까요? (여러 개)",
+    "multi": true,
+    "options": [
+      { "optionId": "Q7-new", "label": "세상에 없던 새로운 걸 만든 사람", "emoji": "✨", "scores": { "F-ENG": 2, "F-ART": 2 } },
+      { "optionId": "Q7-help", "label": "어려운 사람을 도와준 사람", "emoji": "🫂", "scores": { "F-MED": 2, "F-SOC": 1, "F-EDU": 1 } },
+      { "optionId": "Q7-expert", "label": "한 분야를 아주 깊이 아는 전문가", "emoji": "🎓", "scores": { "F-NAT": 2, "F-MED": 1 } },
+      { "optionId": "Q7-lead", "label": "큰일을 이끌고 성과를 낸 사람", "emoji": "🚀", "scores": { "F-SOC": 2 } },
+      { "optionId": "Q7-society", "label": "사회를 더 좋게 바꾼 사람", "emoji": "🌍", "scores": { "F-SOC": 2, "F-HUM": 1 } },
+      { "optionId": "Q7-stable", "label": "안정적으로 꾸준히 잘 사는 사람", "emoji": "🌳", "scores": { "F-SOC": 1, "F-EDU": 1 } }
+    ]
+  },
+  {
+    "questionId": "Q8",
+    "text": "이 중에 학교에서 배워보고 싶은 게 있다면? (여러 개)",
+    "multi": true,
+    "options": [
+      { "optionId": "Q8-app", "label": "앱·게임 만드는 법", "emoji": "💻", "scores": { "F-ENG": 3 } },
+      { "optionId": "Q8-predict", "label": "데이터로 미래를 예측하기", "emoji": "📈", "scores": { "F-NAT": 2, "F-SOC": 1 } },
+      { "optionId": "Q8-robot", "label": "로봇·기계·우주선의 원리", "emoji": "🛰️", "scores": { "F-ENG": 3, "F-NAT": 1 } },
+      { "optionId": "Q8-med", "label": "약·질병·인체의 비밀", "emoji": "💊", "scores": { "F-MED": 3 } },
+      { "optionId": "Q8-biz", "label": "창업·마케팅·경제", "emoji": "💼", "scores": { "F-SOC": 3 } },
+      { "optionId": "Q8-lang", "label": "외국어·심리·사람 이해하기", "emoji": "🗣️", "scores": { "F-HUM": 2, "F-SOC": 1 } },
+      { "optionId": "Q8-art", "label": "디자인·영상·예술", "emoji": "🖌️", "scores": { "F-ART": 3 } }
+    ]
+  }
+]

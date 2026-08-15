@@ -1,0 +1,2002 @@
+[
+  {
+    "courseId": "C-KOR-RW",
+    "standardName": "독서와 작문",
+    "aliases": [
+      "독서",
+      "작문"
+    ],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "글을 깊이 읽고 논리적으로 쓰는 힘을 길러요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-KOR-LIT",
+    "standardName": "문학",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "시·소설 등 문학 작품을 읽고 해석해요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-KOR-SPK",
+    "standardName": "화법과 언어",
+    "aliases": [
+      "화법",
+      "언어"
+    ],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "말하기·듣기와 언어의 규칙을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-MATH-ALG",
+    "standardName": "대수",
+    "aliases": [
+      "수학",
+      "수1",
+      "수학1"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "함수와 방정식 등 수학의 기본 뼈대예요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-MATH-CAL1",
+    "standardName": "미적분Ⅰ",
+    "aliases": [
+      "미적분1",
+      "미적1"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [
+      "C-MATH-ALG"
+    ],
+    "incompatibleWith": [],
+    "description": "변화와 그래프를 다루는 미분·적분의 기초예요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-MATH-CAL2",
+    "standardName": "미적분Ⅱ",
+    "aliases": [
+      "미적분2",
+      "미적2"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [
+      "C-MATH-CAL1"
+    ],
+    "incompatibleWith": [],
+    "description": "미적분Ⅰ을 확장한 심화 미적분이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-MATH-GEO",
+    "standardName": "기하",
+    "aliases": [
+      "기하와벡터"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [
+      "C-MATH-ALG"
+    ],
+    "incompatibleWith": [],
+    "description": "도형과 공간, 벡터를 다뤄요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-MATH-PROB",
+    "standardName": "확률과 통계",
+    "aliases": [
+      "확통",
+      "확률통계"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [
+      "C-MATH-ALG"
+    ],
+    "incompatibleWith": [],
+    "description": "경우의 수·확률·통계로 데이터를 다뤄요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-MATH-AI",
+    "standardName": "인공지능 수학",
+    "aliases": [
+      "AI수학"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [
+      "C-MATH-ALG"
+    ],
+    "incompatibleWith": [],
+    "description": "인공지능에 쓰이는 수학 개념을 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SCI-PHY",
+    "standardName": "물리학",
+    "aliases": [
+      "물리",
+      "물리1"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "힘·운동·전기 등 자연의 기본 법칙을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-SCI-CHE",
+    "standardName": "화학",
+    "aliases": [
+      "화학1"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "물질의 구조와 반응을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-SCI-BIO",
+    "standardName": "생명과학",
+    "aliases": [
+      "생명",
+      "생물",
+      "생명1"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생명체의 구조와 작동 원리를 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-SCI-EAR",
+    "standardName": "지구과학",
+    "aliases": [
+      "지구",
+      "지학"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "지구와 우주, 대기·해양을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-SCI-ENE",
+    "standardName": "역학과 에너지",
+    "aliases": [
+      "역학"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [
+      "C-SCI-PHY"
+    ],
+    "incompatibleWith": [],
+    "description": "물리학을 심화해 운동과 에너지를 탐구해요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SCI-EM",
+    "standardName": "전자기와 양자",
+    "aliases": [
+      "전자기",
+      "양자"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [
+      "C-SCI-PHY"
+    ],
+    "incompatibleWith": [],
+    "description": "전기·자기와 양자 현상을 깊이 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SCI-CELL",
+    "standardName": "세포와 물질대사",
+    "aliases": [
+      "세포"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [
+      "C-SCI-BIO"
+    ],
+    "incompatibleWith": [],
+    "description": "생명과학을 심화해 세포와 대사를 탐구해요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SCI-CONV",
+    "standardName": "융합과학 탐구",
+    "aliases": [
+      "융합과학"
+    ],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "여러 과학을 융합해 주제를 탐구해요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-INFO-INFO",
+    "standardName": "정보",
+    "aliases": [
+      "컴퓨터",
+      "코딩"
+    ],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "프로그래밍과 컴퓨팅 사고력의 기초예요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-INFO-AI",
+    "standardName": "인공지능 기초",
+    "aliases": [
+      "AI기초",
+      "인공지능기초"
+    ],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "인공지능의 원리와 활용을 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-INFO-DATA",
+    "standardName": "데이터 과학",
+    "aliases": [
+      "데이터과학"
+    ],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [
+      "C-INFO-INFO"
+    ],
+    "incompatibleWith": [],
+    "description": "데이터를 수집·분석·시각화하는 방법을 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-INFO-SW",
+    "standardName": "소프트웨어와 생활",
+    "aliases": [
+      "SW",
+      "소프트웨어"
+    ],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "소프트웨어가 생활에 쓰이는 사례를 탐구해요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-SOC-GEO",
+    "standardName": "세계시민과 지리",
+    "aliases": [
+      "지리"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "세계 여러 지역과 세계시민 감각을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-SOC-SOC",
+    "standardName": "사회와 문화",
+    "aliases": [
+      "사회문화"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "사회 현상과 문화를 이해해요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-SOC-POL",
+    "standardName": "정치",
+    "aliases": [
+      "정치와법"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "정치 제도와 민주주의를 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SOC-LAW",
+    "standardName": "법과 사회",
+    "aliases": [
+      "법"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "일상과 사회 속 법을 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SOC-ECON",
+    "standardName": "경제",
+    "aliases": [
+      "경제학"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "시장과 돈이 움직이는 원리를 배워요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SOC-ETH",
+    "standardName": "윤리와 사상",
+    "aliases": [
+      "윤리"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "사람과 사회의 가치·사상을 탐구해요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-SOC-HIS",
+    "standardName": "세계사",
+    "aliases": [
+      "역사"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "세계 역사의 흐름을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-ENG-E1",
+    "standardName": "영어Ⅰ",
+    "aliases": [
+      "영어1",
+      "영어"
+    ],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "고등학교 영어의 핵심을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-ENG-RW",
+    "standardName": "영어 독해와 작문",
+    "aliases": [
+      "영어독해",
+      "영작"
+    ],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어 글을 읽고 쓰는 힘을 길러요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-ART-ART",
+    "standardName": "미술",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "미술의 기초 표현과 감상을 배워요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-ART-DES",
+    "standardName": "미술 창작",
+    "aliases": [
+      "디자인",
+      "창작"
+    ],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "자기 아이디어를 미술로 창작해요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-001",
+    "standardName": "주제 탐구 독서",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "주제 탐구 독서 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-002",
+    "standardName": "문학과 영상",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "문학과 영상 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-003",
+    "standardName": "매체 의사소통",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "매체 의사소통 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-004",
+    "standardName": "언어생활 탐구",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "언어생활 탐구 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-005",
+    "standardName": "독서 토론과 글쓰기",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "독서 토론과 글쓰기 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-006",
+    "standardName": "언어와 매체",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "언어와 매체 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-007",
+    "standardName": "화법과 작문",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "화법과 작문 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-008",
+    "standardName": "심화 국어",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화 국어 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-009",
+    "standardName": "고전 읽기",
+    "aliases": [],
+    "subjectArea": "국어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "고전 읽기 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-010",
+    "standardName": "미적분",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "미적분 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-011",
+    "standardName": "경제 수학",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "경제 수학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-012",
+    "standardName": "수학과 문화",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "수학과 문화 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-013",
+    "standardName": "실용 통계",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "실용 통계 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-014",
+    "standardName": "수학과제 탐구",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "수학과제 탐구 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-015",
+    "standardName": "직무 수학",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "직무 수학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-016",
+    "standardName": "수학Ⅰ",
+    "aliases": [
+      "수학1"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "수학Ⅰ 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-017",
+    "standardName": "수학Ⅱ",
+    "aliases": [
+      "수학2"
+    ],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "수학Ⅱ 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-018",
+    "standardName": "심화 수학Ⅰ",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화 수학Ⅰ 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-019",
+    "standardName": "심화 수학Ⅱ",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화 수학Ⅱ 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-020",
+    "standardName": "영어Ⅱ",
+    "aliases": [
+      "영어2"
+    ],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어Ⅱ 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-021",
+    "standardName": "직무 영어",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "직무 영어 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-022",
+    "standardName": "영미 문학 읽기",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영미 문학 읽기 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-023",
+    "standardName": "영어 발표와 토론",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어 발표와 토론 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-024",
+    "standardName": "심화 영어",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화 영어 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-025",
+    "standardName": "심화 영어 독해와 작문",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화 영어 독해와 작문 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-026",
+    "standardName": "실생활 영어 회화",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "실생활 영어 회화 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-027",
+    "standardName": "미디어 영어",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "미디어 영어 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-028",
+    "standardName": "세계 문화와 영어",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "세계 문화와 영어 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-029",
+    "standardName": "영어 회화",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어 회화 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-030",
+    "standardName": "진로 영어",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "진로 영어 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-031",
+    "standardName": "영어권 문화",
+    "aliases": [],
+    "subjectArea": "영어",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어권 문화 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-032",
+    "standardName": "현대사회와 윤리",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "현대사회와 윤리 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-033",
+    "standardName": "한국지리 탐구",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "한국지리 탐구 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-034",
+    "standardName": "도시의 미래 탐구",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "도시의 미래 탐구 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-035",
+    "standardName": "동아시아 역사 기행",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "동아시아 역사 기행 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-036",
+    "standardName": "인문학과 윤리",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "인문학과 윤리 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-037",
+    "standardName": "여행지리",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "여행지리 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-038",
+    "standardName": "역사로 탐구하는 현대 세계",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "역사로 탐구하는 현대 세계 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-039",
+    "standardName": "사회문제 탐구",
+    "aliases": [
+      "사회문제탐구"
+    ],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "사회문제 탐구 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-040",
+    "standardName": "금융과 경제생활",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "금융과 경제생활 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-041",
+    "standardName": "윤리문제 탐구",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "윤리문제 탐구 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-042",
+    "standardName": "국제 관계의 이해",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "국제 관계의 이해 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-043",
+    "standardName": "기후변화와 지속가능한 세계",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "기후변화와 지속가능한 세계 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-044",
+    "standardName": "한국지리",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "한국지리 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-045",
+    "standardName": "세계지리",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "세계지리 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-046",
+    "standardName": "동아시아사",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "동아시아사 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-047",
+    "standardName": "생활과 윤리",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생활과 윤리 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-048",
+    "standardName": "정치와 법",
+    "aliases": [],
+    "subjectArea": "사회",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "정치와 법 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-049",
+    "standardName": "물질과 에너지",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "물질과 에너지 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-050",
+    "standardName": "화학 반응의 세계",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "화학 반응의 세계 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-051",
+    "standardName": "생물의 유전",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생물의 유전 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-052",
+    "standardName": "지구시스템과학",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "지구시스템과학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-053",
+    "standardName": "행성우주과학",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "행성우주과학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-054",
+    "standardName": "과학의 역사와 문화",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "과학의 역사와 문화 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-055",
+    "standardName": "기후변화와 환경생태",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "기후변화와 환경생태 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-056",
+    "standardName": "물리학Ⅱ",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "물리학Ⅱ 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-057",
+    "standardName": "화학Ⅱ",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "화학Ⅱ 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-058",
+    "standardName": "생명과학Ⅱ",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생명과학Ⅱ 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-059",
+    "standardName": "지구과학Ⅱ",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "지구과학Ⅱ 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-060",
+    "standardName": "과학탐구실험",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "과학탐구실험 과목이에요.",
+    "electiveType": "공통"
+  },
+  {
+    "courseId": "C-EXT-061",
+    "standardName": "운동과 건강",
+    "aliases": [],
+    "subjectArea": "체육",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "운동과 건강 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-062",
+    "standardName": "스포츠 문화",
+    "aliases": [],
+    "subjectArea": "체육",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "스포츠 문화 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-063",
+    "standardName": "스포츠 과학",
+    "aliases": [],
+    "subjectArea": "체육",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "스포츠 과학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-064",
+    "standardName": "스포츠 생활",
+    "aliases": [],
+    "subjectArea": "체육",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "스포츠 생활 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-065",
+    "standardName": "음악",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "음악 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-066",
+    "standardName": "연극",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "연극 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-067",
+    "standardName": "음악 연주와 창작",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "음악 연주와 창작 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-068",
+    "standardName": "음악 감상과 비평",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "음악 감상과 비평 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-069",
+    "standardName": "미술 감상과 비평",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "미술 감상과 비평 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-070",
+    "standardName": "기술·가정",
+    "aliases": [
+      "기술가정",
+      "기술・가정"
+    ],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "기술·가정 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-071",
+    "standardName": "로봇과 공학세계",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "로봇과 공학세계 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-072",
+    "standardName": "창의 공학 설계",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "창의 공학 설계 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-073",
+    "standardName": "생활과학 탐구",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생활과학 탐구 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-074",
+    "standardName": "지식 재산 일반",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "지식 재산 일반 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-075",
+    "standardName": "생애 설계와 자립",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생애 설계와 자립 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-076",
+    "standardName": "아동발달과 부모",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "아동발달과 부모 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-077",
+    "standardName": "정보과학",
+    "aliases": [],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "정보과학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-078",
+    "standardName": "일본어",
+    "aliases": [
+      "일본어Ⅰ",
+      "일본어1"
+    ],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "일본어 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-079",
+    "standardName": "중국어",
+    "aliases": [
+      "중국어Ⅰ",
+      "중국어1"
+    ],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "중국어 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-080",
+    "standardName": "독일어",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "독일어 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-081",
+    "standardName": "프랑스어",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "프랑스어 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-082",
+    "standardName": "스페인어",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "스페인어 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-083",
+    "standardName": "한문",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "한문 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-084",
+    "standardName": "한문 고전 읽기",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "한문 고전 읽기 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-085",
+    "standardName": "심화 한문",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화 한문 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-086",
+    "standardName": "진로와 직업",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "진로와 직업 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-087",
+    "standardName": "생태와 환경",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생태와 환경 과목이에요.",
+    "electiveType": "일반"
+  },
+  {
+    "courseId": "C-EXT-088",
+    "standardName": "인간과 철학",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "인간과 철학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-089",
+    "standardName": "논리와 사고",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "논리와 사고 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-090",
+    "standardName": "인간과 심리",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "인간과 심리 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-091",
+    "standardName": "교육의 이해",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "교육의 이해 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-092",
+    "standardName": "삶과 종교",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "삶과 종교 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-093",
+    "standardName": "보건",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "보건 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-094",
+    "standardName": "인간과 경제활동",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "인간과 경제활동 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-095",
+    "standardName": "논술",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "논술 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-096",
+    "standardName": "철학",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "철학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-097",
+    "standardName": "환경",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "환경 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-098",
+    "standardName": "심리학",
+    "aliases": [],
+    "subjectArea": "교양",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심리학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-099",
+    "standardName": "미술과 매체",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "미술과 매체 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-100",
+    "standardName": "식품과 영양",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "식품과 영양 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-101",
+    "standardName": "언어생활과 한자",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "언어생활과 한자 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-102",
+    "standardName": "음악과 미디어",
+    "aliases": [],
+    "subjectArea": "예술",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "음악과 미디어 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-103",
+    "standardName": "일본 문화",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "일본 문화 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-104",
+    "standardName": "일본어 회화",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "일본어 회화 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-105",
+    "standardName": "전문 수학",
+    "aliases": [],
+    "subjectArea": "수학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "전문 수학 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-106",
+    "standardName": "중국 문화",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "중국 문화 과목이에요.",
+    "electiveType": "융합"
+  },
+  {
+    "courseId": "C-EXT-107",
+    "standardName": "중국어 회화",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "중국어 회화 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-108",
+    "standardName": "프로그래밍",
+    "aliases": [],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "프로그래밍 과목이에요.",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-109",
+    "standardName": "물리학 실험",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-110",
+    "standardName": "화학 실험",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-111",
+    "standardName": "생명과학 실험",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-112",
+    "standardName": "지구과학 실험",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-113",
+    "standardName": "과학과제연구",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-114",
+    "standardName": "스포츠 경기 체력",
+    "aliases": [],
+    "subjectArea": "체육",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-115",
+    "standardName": "심화 중국어",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-116",
+    "standardName": "심화 일본어",
+    "aliases": [],
+    "subjectArea": "제2외국어/한문",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-117",
+    "standardName": "아동 발달과 부모",
+    "aliases": [],
+    "subjectArea": "기술·가정",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-118",
+    "standardName": "응용 프로그래밍 개발",
+    "aliases": [],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-119",
+    "standardName": "빅데이터 분석",
+    "aliases": [],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-120",
+    "standardName": "사물인터넷과 센서 제어",
+    "aliases": [],
+    "subjectArea": "정보",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-121",
+    "standardName": "고급 화학",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-122",
+    "standardName": "고급 생명과학",
+    "aliases": [],
+    "subjectArea": "과학",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "",
+    "electiveType": "진로"
+  },
+  {
+    "courseId": "C-EXT-123",
+    "standardName": "심화 영어 회화Ⅰ",
+    "aliases": [
+      "심화 영어 회화"
+    ],
+    "subjectArea": "영어",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어로 깊이 있게 말하고 토론하는 힘을 길러요."
+  },
+  {
+    "courseId": "C-EXT-124",
+    "standardName": "비판적 사고와 영어 토론",
+    "aliases": [],
+    "subjectArea": "영어",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어로 근거를 들어 비판적으로 토론해요."
+  },
+  {
+    "courseId": "C-EXT-125",
+    "standardName": "비판적 사고와 영어 작문",
+    "aliases": [],
+    "subjectArea": "영어",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "영어로 논리적인 글을 비판적으로 써요."
+  },
+  {
+    "courseId": "C-EXT-126",
+    "standardName": "고급 영어 토론과 작문",
+    "aliases": [],
+    "subjectArea": "영어",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "수준 높은 영어 토론과 학술적 글쓰기를 익혀요."
+  },
+  {
+    "courseId": "C-EXT-127",
+    "standardName": "영어 연구 및 세미나1",
+    "aliases": [
+      "영어 연구 및 세미나"
+    ],
+    "subjectArea": "영어",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "관심 주제를 영어로 탐구하고 발표해요."
+  },
+  {
+    "courseId": "C-EXT-128",
+    "standardName": "고급 기하",
+    "aliases": [],
+    "subjectArea": "수학",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "대학 수준의 기하 개념을 깊이 있게 다뤄요."
+  },
+  {
+    "courseId": "C-EXT-129",
+    "standardName": "고급 대수",
+    "aliases": [],
+    "subjectArea": "수학",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "대학 수준의 대수 개념을 깊이 있게 다뤄요."
+  },
+  {
+    "courseId": "C-EXT-130",
+    "standardName": "고급 미적분",
+    "aliases": [],
+    "subjectArea": "수학",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "대학 수준의 미적분을 폭넓게 다뤄요."
+  },
+  {
+    "courseId": "C-EXT-131",
+    "standardName": "고급 물리학",
+    "aliases": [],
+    "subjectArea": "과학",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화된 물리 이론과 문제를 탐구해요."
+  },
+  {
+    "courseId": "C-EXT-132",
+    "standardName": "고급 지구과학",
+    "aliases": [],
+    "subjectArea": "과학",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "심화된 지구·우주 과학을 탐구해요."
+  },
+  {
+    "courseId": "C-EXT-133",
+    "standardName": "생명과학 세미나",
+    "aliases": [],
+    "subjectArea": "과학",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "생명과학 주제를 탐구하고 토의해요."
+  },
+  {
+    "courseId": "C-EXT-134",
+    "standardName": "실무 화학 분석",
+    "aliases": [
+      "화학 분석"
+    ],
+    "subjectArea": "과학",
+    "electiveType": "진로",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "실험을 통해 화학 분석 실무를 배워요."
+  },
+  {
+    "courseId": "C-EXT-135",
+    "standardName": "지역 이해",
+    "aliases": [],
+    "subjectArea": "사회",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "우리 지역과 세계 여러 지역을 탐구해요."
+  },
+  {
+    "courseId": "C-EXT-136",
+    "standardName": "국제 경제",
+    "aliases": [],
+    "subjectArea": "사회",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "세계 경제의 흐름과 원리를 배워요."
+  },
+  {
+    "courseId": "C-EXT-137",
+    "standardName": "현대 세계의 변화",
+    "aliases": [],
+    "subjectArea": "사회",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "현대 세계사의 큰 흐름을 탐구해요."
+  },
+  {
+    "courseId": "C-EXT-138",
+    "standardName": "한국 사회의 이해",
+    "aliases": [],
+    "subjectArea": "사회",
+    "electiveType": "진로",
+    "credits": 4,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "한국 사회의 구조와 변화를 탐구해요."
+  },
+  {
+    "courseId": "C-EXT-139",
+    "standardName": "생활과 창의성",
+    "aliases": [],
+    "subjectArea": "교양",
+    "electiveType": "진로",
+    "credits": 3,
+    "prerequisites": [],
+    "incompatibleWith": [],
+    "description": "창의적으로 문제를 찾고 해결하는 힘을 길러요."
+  }
+]

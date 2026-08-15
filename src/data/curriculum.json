@@ -1,0 +1,3295 @@
+{
+  "_comment": "학교별 학기순 교육과정(위저드용). semesters는 g2s1→g3s2 순서. required=지정(자동·잠금), groups=선택군 택N. curriculum이 있는 학교는 selectionGroups.json보다 우선.",
+  "schools": {
+    "SCH-CS": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-061",
+            "C-EXT-065",
+            "C-EXT-070"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-033",
+                "C-SOC-ECON",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SOC-HIS",
+                "C-EXT-035",
+                "C-EXT-040",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR"
+              ]
+            },
+            {
+              "label": "일본어·중국어·한문 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-079",
+                "C-EXT-078",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064",
+            "C-ART-ART",
+            "C-INFO-INFO"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-ETH",
+                "C-EXT-043",
+                "C-EXT-034",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052"
+              ]
+            },
+            {
+              "label": "국어·수학·영어 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-004",
+                "C-MATH-PROB",
+                "C-EXT-027"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-EXT-063",
+            "C-EXT-067"
+          ],
+          "groups": [
+            {
+              "label": "국어·수학·영어에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-MATH-PROB",
+                "C-MATH-GEO",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-EXT-011",
+                "C-KOR-SPK",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-ENG-RW",
+                "C-EXT-022",
+                "C-EXT-024"
+              ]
+            },
+            {
+              "label": "사회·과학에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-ETH",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-053",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-EXT-039",
+                "C-EXT-038",
+                "C-EXT-036",
+                "C-EXT-033",
+                "C-EXT-054",
+                "C-EXT-055",
+                "C-SCI-CONV"
+              ]
+            },
+            {
+              "label": "예술·체육·기술·정보·외국어 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-102",
+                "C-EXT-064",
+                "C-INFO-AI",
+                "C-INFO-DATA",
+                "C-EXT-071",
+                "C-EXT-073",
+                "C-EXT-107",
+                "C-EXT-104",
+                "C-EXT-101"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-062",
+            "C-ART-DES",
+            "C-EXT-075"
+          ],
+          "groups": [
+            {
+              "label": "국어·수학·영어에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-MATH-PROB",
+                "C-MATH-GEO",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-EXT-011",
+                "C-KOR-SPK",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-ENG-RW",
+                "C-EXT-022",
+                "C-EXT-024"
+              ]
+            },
+            {
+              "label": "사회·과학에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-ETH",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-053",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-EXT-039",
+                "C-EXT-038",
+                "C-EXT-036",
+                "C-EXT-033",
+                "C-EXT-054",
+                "C-EXT-055",
+                "C-SCI-CONV"
+              ]
+            },
+            {
+              "label": "예술·체육·기술·정보·외국어 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-102",
+                "C-EXT-064",
+                "C-INFO-AI",
+                "C-INFO-DATA",
+                "C-EXT-071",
+                "C-EXT-073",
+                "C-EXT-107",
+                "C-EXT-104",
+                "C-EXT-101"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-CA": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-EXT-064",
+            "C-EXT-065"
+          ],
+          "groups": [
+            {
+              "label": "국어·수학·영어·탐구에서 3과목(4학점)",
+              "choose": 3,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-KOR-RW",
+                "C-KOR-LIT",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-MATH-ALG",
+                "C-MATH-CAL1",
+                "C-MATH-CAL2",
+                "C-EXT-014",
+                "C-EXT-012",
+                "C-ENG-E1",
+                "C-EXT-020",
+                "C-ENG-RW",
+                "C-EXT-025",
+                "C-EXT-022",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-055"
+              ]
+            },
+            {
+              "label": "전 교과에서 4과목(3학점)",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-004",
+                "C-EXT-005",
+                "C-MATH-PROB",
+                "C-MATH-GEO",
+                "C-EXT-011",
+                "C-MATH-AI",
+                "C-EXT-013",
+                "C-EXT-023",
+                "C-EXT-027",
+                "C-EXT-028",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ECON",
+                "C-SOC-ETH",
+                "C-EXT-042",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-083",
+                "C-EXT-071",
+                "C-EXT-084",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-088",
+                "C-EXT-089",
+                "C-EXT-094"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-EXT-064",
+            "C-ART-ART"
+          ],
+          "groups": [
+            {
+              "label": "국어·수학·영어·탐구에서 3과목(4학점)",
+              "choose": 3,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-KOR-RW",
+                "C-KOR-LIT",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-MATH-ALG",
+                "C-MATH-CAL1",
+                "C-MATH-CAL2",
+                "C-EXT-014",
+                "C-EXT-012",
+                "C-ENG-E1",
+                "C-EXT-020",
+                "C-ENG-RW",
+                "C-EXT-025",
+                "C-EXT-022",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-055"
+              ]
+            },
+            {
+              "label": "전 교과에서 4과목(3학점)",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-004",
+                "C-EXT-005",
+                "C-MATH-PROB",
+                "C-MATH-GEO",
+                "C-EXT-011",
+                "C-MATH-AI",
+                "C-EXT-013",
+                "C-EXT-023",
+                "C-EXT-027",
+                "C-EXT-028",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ECON",
+                "C-SOC-ETH",
+                "C-EXT-042",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-083",
+                "C-EXT-071",
+                "C-EXT-084",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-088",
+                "C-EXT-089",
+                "C-EXT-094"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-EXT-063",
+            "C-EXT-069",
+            "C-EXT-075"
+          ],
+          "groups": [
+            {
+              "label": "국어·수학·영어·탐구에서 3과목(4학점)",
+              "choose": 3,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-KOR-RW",
+                "C-KOR-LIT",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-MATH-ALG",
+                "C-MATH-CAL1",
+                "C-MATH-CAL2",
+                "C-EXT-014",
+                "C-EXT-012",
+                "C-ENG-E1",
+                "C-EXT-020",
+                "C-ENG-RW",
+                "C-EXT-025",
+                "C-EXT-022",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-055"
+              ]
+            },
+            {
+              "label": "전 교과에서 4과목(3학점)",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-004",
+                "C-EXT-005",
+                "C-MATH-PROB",
+                "C-MATH-GEO",
+                "C-EXT-011",
+                "C-MATH-AI",
+                "C-EXT-013",
+                "C-EXT-023",
+                "C-EXT-027",
+                "C-EXT-028",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ECON",
+                "C-SOC-ETH",
+                "C-EXT-042",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-083",
+                "C-EXT-071",
+                "C-EXT-084",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-088",
+                "C-EXT-089",
+                "C-EXT-094"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-062",
+            "C-EXT-068",
+            "C-EXT-095"
+          ],
+          "groups": [
+            {
+              "label": "국어·수학·영어·탐구에서 3과목(4학점)",
+              "choose": 3,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-KOR-RW",
+                "C-KOR-LIT",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-MATH-ALG",
+                "C-MATH-CAL1",
+                "C-MATH-CAL2",
+                "C-EXT-014",
+                "C-EXT-012",
+                "C-ENG-E1",
+                "C-EXT-020",
+                "C-ENG-RW",
+                "C-EXT-025",
+                "C-EXT-022",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-055"
+              ]
+            },
+            {
+              "label": "전 교과에서 4과목(3학점)",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-004",
+                "C-EXT-005",
+                "C-MATH-PROB",
+                "C-MATH-GEO",
+                "C-EXT-011",
+                "C-MATH-AI",
+                "C-EXT-013",
+                "C-EXT-023",
+                "C-EXT-027",
+                "C-EXT-028",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ECON",
+                "C-SOC-ETH",
+                "C-EXT-042",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-083",
+                "C-EXT-071",
+                "C-EXT-084",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-088",
+                "C-EXT-089",
+                "C-EXT-094"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-OS": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-108",
+                "C-EXT-083",
+                "C-EXT-079",
+                "C-EXT-078",
+                "C-EXT-071",
+                "C-INFO-AI"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-MATH-GEO",
+                "C-SOC-HIS",
+                "C-EXT-032",
+                "C-SOC-ETH",
+                "C-EXT-034",
+                "C-SOC-POL",
+                "C-SCI-PHY",
+                "C-SCI-EM",
+                "C-SCI-CHE",
+                "C-EXT-049",
+                "C-SCI-BIO",
+                "C-SCI-CELL",
+                "C-SCI-EAR",
+                "C-EXT-052",
+                "C-INFO-DATA",
+                "C-EXT-101",
+                "C-EXT-107",
+                "C-EXT-104",
+                "C-EXT-073",
+                "C-INFO-SW"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-MATH-PROB",
+                "C-ENG-RW",
+                "C-SOC-ETH",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-SCI-ENE",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-077",
+                "C-EXT-001",
+                "C-EXT-002",
+                "C-MATH-CAL2",
+                "C-EXT-024",
+                "C-EXT-027",
+                "C-EXT-084",
+                "C-EXT-106",
+                "C-EXT-103",
+                "C-EXT-072",
+                "C-EXT-118"
+              ]
+            },
+            {
+              "label": "음악·미술 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-067",
+                "C-EXT-069"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-EXT-003",
+                "C-EXT-005",
+                "C-EXT-014",
+                "C-EXT-011",
+                "C-EXT-022",
+                "C-EXT-028",
+                "C-EXT-041",
+                "C-EXT-037",
+                "C-EXT-038",
+                "C-SOC-LAW",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-055",
+                "C-EXT-054",
+                "C-EXT-120",
+                "C-EXT-083",
+                "C-EXT-115",
+                "C-EXT-116",
+                "C-EXT-117",
+                "C-EXT-119"
+              ]
+            },
+            {
+              "label": "음악·미술 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-067",
+                "C-EXT-069"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-JA": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "제2외국어·한문 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-101",
+                "C-EXT-079",
+                "C-EXT-078",
+                "C-EXT-083",
+                "C-EXT-107",
+                "C-EXT-104"
+              ]
+            },
+            {
+              "label": "선택군에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-MATH-GEO",
+                "C-EXT-038",
+                "C-EXT-039",
+                "C-EXT-055",
+                "C-SCI-CONV",
+                "C-EXT-071",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-INFO-AI"
+              ]
+            },
+            {
+              "label": "사회·과학에서 2과목",
+              "choose": 2,
+              "courseIds": [
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "제2외국어·한문 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-101",
+                "C-EXT-079",
+                "C-EXT-078",
+                "C-EXT-083",
+                "C-EXT-107",
+                "C-EXT-104"
+              ]
+            },
+            {
+              "label": "선택군에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-MATH-GEO",
+                "C-EXT-038",
+                "C-EXT-039",
+                "C-EXT-055",
+                "C-SCI-CONV",
+                "C-EXT-071",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-INFO-AI"
+              ]
+            },
+            {
+              "label": "사회·과학에서 2과목",
+              "choose": 2,
+              "courseIds": [
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "선택군4에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-KOR-RW",
+                "C-EXT-002",
+                "C-EXT-004",
+                "C-MATH-PROB",
+                "C-EXT-011",
+                "C-MATH-CAL2",
+                "C-EXT-105",
+                "C-EXT-013",
+                "C-ENG-RW",
+                "C-EXT-023",
+                "C-EXT-028",
+                "C-EXT-033",
+                "C-EXT-042",
+                "C-SOC-ECON",
+                "C-SOC-ETH",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-052"
+              ]
+            },
+            {
+              "label": "선택군5에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-035",
+                "C-EXT-034",
+                "C-SOC-POL",
+                "C-EXT-036",
+                "C-EXT-040",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-109",
+                "C-EXT-110",
+                "C-EXT-111",
+                "C-EXT-112",
+                "C-EXT-084",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-072",
+                "C-EXT-117",
+                "C-EXT-077",
+                "C-EXT-108"
+              ]
+            },
+            {
+              "label": "교양에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-086",
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "선택군4에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-KOR-RW",
+                "C-EXT-002",
+                "C-EXT-004",
+                "C-MATH-PROB",
+                "C-EXT-011",
+                "C-MATH-CAL2",
+                "C-EXT-105",
+                "C-EXT-013",
+                "C-ENG-RW",
+                "C-EXT-023",
+                "C-EXT-028",
+                "C-EXT-033",
+                "C-EXT-042",
+                "C-SOC-ECON",
+                "C-SOC-ETH",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-052"
+              ]
+            },
+            {
+              "label": "선택군5에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-035",
+                "C-EXT-034",
+                "C-SOC-POL",
+                "C-EXT-036",
+                "C-EXT-040",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-109",
+                "C-EXT-110",
+                "C-EXT-111",
+                "C-EXT-112",
+                "C-EXT-084",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-072",
+                "C-EXT-117",
+                "C-EXT-077",
+                "C-EXT-108"
+              ]
+            },
+            {
+              "label": "교양에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-086",
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-SD": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-KOR-LIT",
+                "C-EXT-005",
+                "C-ENG-E1",
+                "C-MATH-ALG",
+                "C-SOC-SOC",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-INFO-AI",
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-KOR-RW",
+                "C-EXT-020",
+                "C-EXT-026",
+                "C-MATH-CAL1",
+                "C-MATH-GEO",
+                "C-SOC-SOC",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-EXT-035",
+                "C-EXT-033",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-INFO-AI",
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 7과목",
+              "choose": 7,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-EXT-001",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-MATH-PROB",
+                "C-MATH-CAL2",
+                "C-SOC-ECON",
+                "C-SOC-LAW",
+                "C-EXT-035",
+                "C-EXT-033",
+                "C-EXT-034",
+                "C-SOC-ETH",
+                "C-EXT-039",
+                "C-EXT-038",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-109",
+                "C-EXT-111",
+                "C-EXT-110",
+                "C-EXT-112",
+                "C-EXT-113",
+                "C-SCI-CONV",
+                "C-EXT-074",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-INFO-SW",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-084"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-EXT-002",
+                "C-EXT-005",
+                "C-EXT-027",
+                "C-EXT-024",
+                "C-EXT-014",
+                "C-EXT-012",
+                "C-EXT-039",
+                "C-EXT-038",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-EXT-054",
+                "C-EXT-055",
+                "C-SCI-CONV",
+                "C-EXT-114",
+                "C-EXT-074",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-INFO-SW",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101"
+              ]
+            },
+            {
+              "label": "교양에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-MC": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-064",
+            "C-EXT-065",
+            "C-EXT-070",
+            "C-EXT-078"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-SOC-SOC",
+                "C-EXT-033",
+                "C-SOC-ECON",
+                "C-EXT-035",
+                "C-SOC-ETH",
+                "C-SOC-LAW",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064",
+            "C-ART-ART",
+            "C-EXT-073",
+            "C-EXT-103"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-SOC-SOC",
+                "C-EXT-033",
+                "C-SOC-ECON",
+                "C-EXT-035",
+                "C-SOC-ETH",
+                "C-SOC-LAW",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-PROB",
+            "C-ENG-RW",
+            "C-EXT-063",
+            "C-EXT-068"
+          ],
+          "groups": [
+            {
+              "label": "탐구·수학에서 2과목",
+              "choose": 2,
+              "courseIds": [
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-032",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-POL",
+                "C-EXT-034",
+                "C-MATH-GEO"
+              ]
+            },
+            {
+              "label": "융합에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-MATH-CAL2",
+                "C-EXT-027",
+                "C-EXT-039",
+                "C-SCI-CONV"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-062",
+            "C-EXT-069"
+          ],
+          "groups": [
+            {
+              "label": "전 교과에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-EXT-001",
+                "C-EXT-004",
+                "C-EXT-014",
+                "C-EXT-025",
+                "C-EXT-022",
+                "C-EXT-032",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-POL",
+                "C-EXT-034",
+                "C-EXT-041",
+                "C-EXT-037",
+                "C-EXT-043",
+                "C-EXT-054",
+                "C-EXT-055"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-US": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-064",
+            "C-EXT-068"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-071",
+                "C-INFO-AI",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-EXT-043",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-MATH-CAL2",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-EXT-093",
+                "C-EXT-086",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-003",
+                "C-EXT-001",
+                "C-EXT-027",
+                "C-EXT-041",
+                "C-EXT-055",
+                "C-EXT-102",
+                "C-EXT-099",
+                "C-EXT-013",
+                "C-EXT-012",
+                "C-EXT-037",
+                "C-EXT-040",
+                "C-EXT-038"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064",
+            "C-ART-DES"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-071",
+                "C-INFO-AI",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-EXT-043",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-MATH-CAL2",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-EXT-093",
+                "C-EXT-086",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-003",
+                "C-EXT-001",
+                "C-EXT-027",
+                "C-EXT-041",
+                "C-EXT-055",
+                "C-EXT-102",
+                "C-EXT-099",
+                "C-EXT-013",
+                "C-EXT-012",
+                "C-EXT-037",
+                "C-EXT-040",
+                "C-EXT-038"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-PROB",
+            "C-ENG-RW",
+            "C-EXT-062"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-071",
+                "C-INFO-AI",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-EXT-043",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-MATH-CAL2",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-EXT-093",
+                "C-EXT-086",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-003",
+                "C-EXT-001",
+                "C-EXT-027",
+                "C-EXT-041",
+                "C-EXT-055",
+                "C-EXT-102",
+                "C-EXT-099",
+                "C-EXT-013",
+                "C-EXT-012",
+                "C-EXT-037",
+                "C-EXT-040",
+                "C-EXT-038"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-063"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-071",
+                "C-INFO-AI",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-EXT-043",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-MATH-CAL2",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-073",
+                "C-INFO-DATA",
+                "C-EXT-093",
+                "C-EXT-086",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-072",
+                "C-INFO-SW",
+                "C-EXT-003",
+                "C-EXT-001",
+                "C-EXT-027",
+                "C-EXT-041",
+                "C-EXT-055",
+                "C-EXT-102",
+                "C-EXT-099",
+                "C-EXT-013",
+                "C-EXT-012",
+                "C-EXT-037",
+                "C-EXT-040",
+                "C-EXT-038"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-DJ": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-064",
+            "C-ART-ART"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학·교양에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-043",
+                "C-EXT-041",
+                "C-SOC-SOC",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-EXT-035",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-091",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-SOC-LAW",
+                "C-EXT-033",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-SOC-POL"
+              ]
+            },
+            {
+              "label": "국어·수학·영어에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-028",
+                "C-KOR-SPK",
+                "C-MATH-GEO",
+                "C-MATH-PROB"
+              ]
+            },
+            {
+              "label": "기술·가정·정보에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-117",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-074",
+                "C-EXT-071",
+                "C-EXT-100",
+                "C-INFO-DATA"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064",
+            "C-EXT-065"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학·교양에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-043",
+                "C-EXT-041",
+                "C-SOC-SOC",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-EXT-035",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-091",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-SOC-LAW",
+                "C-EXT-033",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-SOC-POL"
+              ]
+            },
+            {
+              "label": "기술·가정·정보에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-117",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-074",
+                "C-EXT-071",
+                "C-EXT-100",
+                "C-INFO-DATA"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-104",
+                "C-EXT-106",
+                "C-EXT-084"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-EXT-062"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학·교양에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-043",
+                "C-EXT-041",
+                "C-SOC-SOC",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-EXT-035",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-091",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-SOC-LAW",
+                "C-EXT-033",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-SOC-POL"
+              ]
+            },
+            {
+              "label": "국어·수학·영어에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-MATH-CAL2",
+                "C-EXT-001",
+                "C-EXT-011",
+                "C-EXT-022",
+                "C-EXT-024"
+              ]
+            },
+            {
+              "label": "기술·정보·외국어에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-093",
+                "C-EXT-101",
+                "C-EXT-103",
+                "C-INFO-AI",
+                "C-EXT-107",
+                "C-EXT-072",
+                "C-EXT-073"
+              ]
+            },
+            {
+              "label": "예술에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-068",
+                "C-ART-DES",
+                "C-EXT-102",
+                "C-EXT-099"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-063"
+          ],
+          "groups": [
+            {
+              "label": "사회·과학에서 2과목",
+              "choose": 2,
+              "courseIds": [
+                "C-EXT-055",
+                "C-EXT-054",
+                "C-EXT-040",
+                "C-EXT-039",
+                "C-EXT-037",
+                "C-EXT-038",
+                "C-EXT-036"
+              ]
+            },
+            {
+              "label": "국어·수학·영어에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-005",
+                "C-EXT-012",
+                "C-EXT-027",
+                "C-EXT-025"
+              ]
+            },
+            {
+              "label": "기술·정보·외국어에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-093",
+                "C-EXT-101",
+                "C-EXT-103",
+                "C-INFO-AI",
+                "C-EXT-107",
+                "C-EXT-072",
+                "C-EXT-073"
+              ]
+            },
+            {
+              "label": "예술에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-068",
+                "C-ART-DES",
+                "C-EXT-102",
+                "C-EXT-099"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-BJ": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-065",
+            "C-EXT-068"
+          ],
+          "groups": [
+            {
+              "label": "국어·영어·사회·과학·정보에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-002",
+                "C-EXT-028",
+                "C-EXT-027",
+                "C-SOC-SOC",
+                "C-EXT-043",
+                "C-EXT-032",
+                "C-SOC-HIS",
+                "C-EXT-033",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-INFO-SW"
+              ]
+            },
+            {
+              "label": "교양에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-093",
+                "C-EXT-088",
+                "C-EXT-095",
+                "C-EXT-087"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-CAL1",
+            "C-EXT-020"
+          ],
+          "groups": [
+            {
+              "label": "전 교과에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-001",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-EXT-013",
+                "C-EXT-011",
+                "C-EXT-022",
+                "C-EXT-027",
+                "C-SOC-POL",
+                "C-SOC-ECON",
+                "C-EXT-035",
+                "C-SOC-ETH",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-EXT-113",
+                "C-INFO-DATA"
+              ]
+            },
+            {
+              "label": "제2외국어에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-079",
+                "C-EXT-078"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-EXT-064",
+            "C-ART-ART"
+          ],
+          "groups": [
+            {
+              "label": "전 교과에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-KOR-RW",
+                "C-EXT-004",
+                "C-MATH-PROB",
+                "C-MATH-CAL2",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-SOC-LAW",
+                "C-EXT-034",
+                "C-EXT-038",
+                "C-EXT-036",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-121",
+                "C-EXT-122",
+                "C-EXT-077"
+              ]
+            },
+            {
+              "label": "제2외국어에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-106",
+                "C-EXT-103"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-064",
+            "C-EXT-067"
+          ],
+          "groups": [
+            {
+              "label": "전 교과에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-EXT-003",
+                "C-EXT-005",
+                "C-EXT-012",
+                "C-EXT-013",
+                "C-EXT-025",
+                "C-EXT-021",
+                "C-EXT-039",
+                "C-EXT-037"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-BD": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-064",
+            "C-EXT-065"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-108",
+                "C-INFO-AI",
+                "C-EXT-073",
+                "C-EXT-072",
+                "C-EXT-099",
+                "C-EXT-102",
+                "C-MATH-GEO",
+                "C-SOC-GEO"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064",
+            "C-ART-ART"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-EXT-108",
+                "C-INFO-AI",
+                "C-EXT-073",
+                "C-EXT-072",
+                "C-EXT-099",
+                "C-EXT-102",
+                "C-MATH-GEO",
+                "C-SOC-GEO"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-PROB",
+            "C-EXT-062",
+            "C-EXT-068"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-SOC-ECON",
+                "C-SOC-LAW",
+                "C-EXT-035",
+                "C-SOC-ETH",
+                "C-EXT-034",
+                "C-EXT-039",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-055",
+                "C-EXT-033",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-041",
+                "C-EXT-037",
+                "C-EXT-043",
+                "C-EXT-001",
+                "C-EXT-004",
+                "C-ENG-RW",
+                "C-EXT-022",
+                "C-EXT-028",
+                "C-EXT-024",
+                "C-MATH-CAL2",
+                "C-EXT-011",
+                "C-EXT-014",
+                "C-INFO-DATA",
+                "C-EXT-077",
+                "C-EXT-061",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-063",
+            "C-EXT-069"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-SOC-ECON",
+                "C-SOC-LAW",
+                "C-EXT-035",
+                "C-SOC-ETH",
+                "C-EXT-034",
+                "C-EXT-039",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-055",
+                "C-EXT-033",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-041",
+                "C-EXT-037",
+                "C-EXT-043",
+                "C-EXT-001",
+                "C-EXT-004",
+                "C-ENG-RW",
+                "C-EXT-022",
+                "C-EXT-028",
+                "C-EXT-024",
+                "C-MATH-CAL2",
+                "C-EXT-011",
+                "C-EXT-014",
+                "C-INFO-DATA",
+                "C-EXT-077",
+                "C-EXT-061",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-SY": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-064"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101",
+                "C-EXT-001",
+                "C-EXT-022",
+                "C-INFO-AI",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-034",
+                "C-SOC-ECON",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-053",
+                "C-MATH-GEO",
+                "C-EXT-011"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101",
+                "C-EXT-001",
+                "C-EXT-022",
+                "C-INFO-AI",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-EXT-034",
+                "C-SOC-ECON",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-053",
+                "C-MATH-GEO",
+                "C-EXT-011"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-PROB",
+            "C-EXT-062",
+            "C-EXT-068"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-EXT-002",
+                "C-EXT-005",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-EXT-014",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-EXT-028",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-041",
+                "C-EXT-043",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-055",
+                "C-EXT-109",
+                "C-EXT-110",
+                "C-EXT-111",
+                "C-EXT-054",
+                "C-SCI-CONV",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-084",
+                "C-EXT-071",
+                "C-EXT-073",
+                "C-EXT-077",
+                "C-INFO-DATA"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-063",
+            "C-ART-DES"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 5과목",
+              "choose": 5,
+              "courseIds": [
+                "C-EXT-002",
+                "C-EXT-005",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-EXT-014",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-EXT-028",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-041",
+                "C-EXT-043",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-055",
+                "C-EXT-109",
+                "C-EXT-110",
+                "C-EXT-111",
+                "C-EXT-054",
+                "C-SCI-CONV",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-084",
+                "C-EXT-071",
+                "C-EXT-073",
+                "C-EXT-077",
+                "C-INFO-DATA"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-YG": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-062",
+            "C-EXT-067",
+            "C-EXT-065",
+            "C-ART-ART"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-SOC-HIS",
+                "C-SOC-POL",
+                "C-SOC-ECON",
+                "C-SOC-SOC",
+                "C-SOC-GEO",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-EXT-108",
+                "C-INFO-AI",
+                "C-MATH-AI"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-063"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-SOC-HIS",
+                "C-SOC-POL",
+                "C-SOC-ECON",
+                "C-SOC-GEO",
+                "C-SOC-LAW",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-108",
+                "C-INFO-AI",
+                "C-MATH-AI",
+                "C-MATH-GEO",
+                "C-ENG-RW",
+                "C-EXT-022",
+                "C-SOC-SOC",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-INFO-DATA"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-PROB",
+            "C-EXT-064",
+            "C-ART-DES",
+            "C-EXT-087"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 3과목",
+              "choose": 3,
+              "courseIds": [
+                "C-MATH-GEO",
+                "C-ENG-RW",
+                "C-EXT-022",
+                "C-SOC-SOC",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-INFO-DATA",
+                "C-EXT-005",
+                "C-EXT-003",
+                "C-EXT-002",
+                "C-EXT-001",
+                "C-MATH-CAL2",
+                "C-EXT-011",
+                "C-EXT-012",
+                "C-EXT-014",
+                "C-EXT-105",
+                "C-EXT-027",
+                "C-EXT-024",
+                "C-EXT-025",
+                "C-EXT-026",
+                "C-EXT-034",
+                "C-EXT-032",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-043",
+                "C-EXT-038",
+                "C-SCI-CONV",
+                "C-EXT-054",
+                "C-EXT-073",
+                "C-EXT-055"
+              ]
+            },
+            {
+              "label": "제2외국어·기술·정보에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-101",
+                "C-EXT-117",
+                "C-INFO-SW"
+              ]
+            },
+            {
+              "label": "교양에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-091",
+                "C-EXT-090",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-064"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-005",
+                "C-EXT-003",
+                "C-EXT-002",
+                "C-EXT-001",
+                "C-MATH-CAL2",
+                "C-EXT-011",
+                "C-EXT-012",
+                "C-EXT-014",
+                "C-EXT-105",
+                "C-EXT-027",
+                "C-EXT-024",
+                "C-EXT-025",
+                "C-EXT-026",
+                "C-EXT-034",
+                "C-EXT-036",
+                "C-EXT-037",
+                "C-EXT-039",
+                "C-EXT-043",
+                "C-EXT-041",
+                "C-EXT-038",
+                "C-SCI-CONV",
+                "C-EXT-054",
+                "C-EXT-073",
+                "C-EXT-055"
+              ]
+            },
+            {
+              "label": "제2외국어·기술·정보에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-101",
+                "C-EXT-117",
+                "C-INFO-SW"
+              ]
+            },
+            {
+              "label": "교양에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-091",
+                "C-EXT-090",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            },
+            {
+              "label": "음악·미술 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-068",
+                "C-EXT-069"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-BIY": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-003",
+                "C-EXT-026",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-SOC-SOC",
+                "C-SOC-ECON",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-108",
+                "C-EXT-117",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-EXT-001",
+                "C-MATH-GEO",
+                "C-EXT-023",
+                "C-EXT-034",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-INFO-AI"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-CAL1",
+            "C-EXT-020"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-003",
+                "C-EXT-026",
+                "C-SOC-HIS",
+                "C-SOC-GEO",
+                "C-EXT-032",
+                "C-SOC-SOC",
+                "C-SOC-ECON",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-EXT-108",
+                "C-EXT-117",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-EXT-001",
+                "C-MATH-GEO",
+                "C-EXT-023",
+                "C-EXT-034",
+                "C-SOC-POL",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-INFO-AI"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-002",
+                "C-MATH-CAL2",
+                "C-EXT-038",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-EXT-039",
+                "C-EXT-040",
+                "C-EXT-043",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-INFO-DATA",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-004",
+                "C-EXT-105",
+                "C-EXT-024",
+                "C-EXT-054",
+                "C-EXT-055",
+                "C-INFO-SW",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-087"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 7과목",
+              "choose": 7,
+              "courseIds": [
+                "C-EXT-002",
+                "C-MATH-CAL2",
+                "C-EXT-038",
+                "C-EXT-037",
+                "C-EXT-041",
+                "C-EXT-039",
+                "C-EXT-040",
+                "C-EXT-043",
+                "C-SCI-ENE",
+                "C-SCI-EM",
+                "C-EXT-049",
+                "C-EXT-050",
+                "C-SCI-CELL",
+                "C-EXT-051",
+                "C-EXT-052",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-070",
+                "C-INFO-INFO",
+                "C-INFO-DATA",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-004",
+                "C-EXT-105",
+                "C-EXT-024",
+                "C-EXT-054",
+                "C-EXT-055",
+                "C-INFO-SW",
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-087"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-WB": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1",
+            "C-EXT-064"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 2과목",
+              "choose": 2,
+              "courseIds": [
+                "C-INFO-AI",
+                "C-EXT-108",
+                "C-INFO-SW",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-001",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-MATH-GEO",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-EXT-026",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-073",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101",
+                "C-INFO-DATA",
+                "C-EXT-077",
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-CAL1",
+            "C-EXT-020",
+            "C-EXT-064"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 2과목",
+              "choose": 2,
+              "courseIds": [
+                "C-INFO-AI",
+                "C-EXT-108",
+                "C-INFO-SW",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-001",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-MATH-GEO",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-EXT-026",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-073",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101",
+                "C-INFO-DATA",
+                "C-EXT-077",
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [
+            "C-KOR-SPK",
+            "C-MATH-PROB",
+            "C-EXT-062"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-INFO-AI",
+                "C-EXT-108",
+                "C-INFO-SW",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-001",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-MATH-GEO",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-EXT-026",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-073",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101",
+                "C-INFO-DATA",
+                "C-EXT-077",
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [
+            "C-EXT-063"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-INFO-AI",
+                "C-EXT-108",
+                "C-INFO-SW",
+                "C-SOC-GEO",
+                "C-SOC-HIS",
+                "C-SOC-SOC",
+                "C-EXT-032",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-SCI-CONV",
+                "C-EXT-001",
+                "C-MATH-CAL2",
+                "C-MATH-AI",
+                "C-MATH-GEO",
+                "C-ENG-RW",
+                "C-EXT-024",
+                "C-EXT-026",
+                "C-EXT-033",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-SOC-ETH",
+                "C-SOC-ECON",
+                "C-EXT-039",
+                "C-EXT-073",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-101",
+                "C-INFO-DATA",
+                "C-EXT-077",
+                "C-EXT-087",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "SCH-BI": {
+      "semesters": [
+        {
+          "slot": "g2s1",
+          "required": [
+            "C-KOR-LIT",
+            "C-MATH-ALG",
+            "C-ENG-E1"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-011",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-EXT-001",
+                "C-EXT-123",
+                "C-EXT-022",
+                "C-MATH-CAL2",
+                "C-EXT-002",
+                "C-EXT-124",
+                "C-EXT-125",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SOC-ETH",
+                "C-SOC-SOC",
+                "C-SOC-POL",
+                "C-SOC-HIS",
+                "C-INFO-AI",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-EXT-109",
+                "C-EXT-110",
+                "C-EXT-111",
+                "C-SOC-ECON",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-EXT-135",
+                "C-EXT-032",
+                "C-INFO-DATA",
+                "C-EXT-023",
+                "C-EXT-077",
+                "C-EXT-062",
+                "C-EXT-063"
+              ]
+            },
+            {
+              "label": "음악·미술 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-065",
+                "C-ART-ART"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-078",
+                "C-EXT-079",
+                "C-EXT-083"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g2s2",
+          "required": [
+            "C-KOR-RW",
+            "C-MATH-CAL1",
+            "C-MATH-PROB",
+            "C-EXT-020"
+          ],
+          "groups": [
+            {
+              "label": "통합 선택에서 4과목",
+              "choose": 4,
+              "courseIds": [
+                "C-EXT-011",
+                "C-MATH-GEO",
+                "C-MATH-AI",
+                "C-EXT-001",
+                "C-EXT-123",
+                "C-EXT-022",
+                "C-MATH-CAL2",
+                "C-EXT-002",
+                "C-EXT-124",
+                "C-EXT-125",
+                "C-SCI-PHY",
+                "C-SCI-CHE",
+                "C-SCI-BIO",
+                "C-SCI-EAR",
+                "C-SOC-ETH",
+                "C-SOC-SOC",
+                "C-SOC-POL",
+                "C-SOC-HIS",
+                "C-INFO-AI",
+                "C-SCI-ENE",
+                "C-EXT-049",
+                "C-SCI-CELL",
+                "C-EXT-052",
+                "C-EXT-109",
+                "C-EXT-110",
+                "C-EXT-111",
+                "C-SOC-ECON",
+                "C-EXT-035",
+                "C-SOC-LAW",
+                "C-EXT-135",
+                "C-EXT-032",
+                "C-INFO-DATA",
+                "C-EXT-023",
+                "C-EXT-077",
+                "C-EXT-062",
+                "C-EXT-063"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s1",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-EXT-005",
+                "C-EXT-128",
+                "C-EXT-129",
+                "C-EXT-130",
+                "C-EXT-105",
+                "C-ENG-RW",
+                "C-EXT-126",
+                "C-EXT-003",
+                "C-EXT-004",
+                "C-EXT-012",
+                "C-EXT-014",
+                "C-EXT-013",
+                "C-EXT-025",
+                "C-EXT-127",
+                "C-EXT-131",
+                "C-EXT-121",
+                "C-EXT-122",
+                "C-EXT-132",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-133",
+                "C-EXT-134",
+                "C-EXT-108",
+                "C-EXT-136",
+                "C-EXT-043",
+                "C-EXT-055",
+                "C-EXT-137",
+                "C-EXT-036",
+                "C-EXT-138",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-EXT-054",
+                "C-SCI-CONV",
+                "C-EXT-039",
+                "C-EXT-041",
+                "C-EXT-040",
+                "C-EXT-038",
+                "C-INFO-SW",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-087",
+                "C-EXT-088",
+                "C-EXT-089",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            },
+            {
+              "label": "음악·미술 중 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-067",
+                "C-EXT-069"
+              ]
+            },
+            {
+              "label": "제2외국어·한문에서 1과목",
+              "choose": 1,
+              "courseIds": [
+                "C-EXT-104",
+                "C-EXT-107",
+                "C-EXT-101"
+              ]
+            }
+          ]
+        },
+        {
+          "slot": "g3s2",
+          "required": [],
+          "groups": [
+            {
+              "label": "통합 선택에서 6과목",
+              "choose": 6,
+              "courseIds": [
+                "C-KOR-SPK",
+                "C-EXT-005",
+                "C-EXT-128",
+                "C-EXT-129",
+                "C-EXT-130",
+                "C-EXT-105",
+                "C-ENG-RW",
+                "C-EXT-126",
+                "C-EXT-003",
+                "C-EXT-004",
+                "C-EXT-012",
+                "C-EXT-014",
+                "C-EXT-013",
+                "C-EXT-025",
+                "C-EXT-127",
+                "C-EXT-131",
+                "C-EXT-121",
+                "C-EXT-122",
+                "C-EXT-132",
+                "C-SCI-EM",
+                "C-EXT-050",
+                "C-EXT-051",
+                "C-EXT-053",
+                "C-EXT-133",
+                "C-EXT-134",
+                "C-EXT-108",
+                "C-EXT-136",
+                "C-EXT-043",
+                "C-EXT-055",
+                "C-EXT-137",
+                "C-EXT-036",
+                "C-EXT-138",
+                "C-EXT-116",
+                "C-EXT-115",
+                "C-EXT-054",
+                "C-SCI-CONV",
+                "C-EXT-039",
+                "C-EXT-041",
+                "C-EXT-040",
+                "C-EXT-038",
+                "C-INFO-SW",
+                "C-EXT-103",
+                "C-EXT-106",
+                "C-EXT-087",
+                "C-EXT-088",
+                "C-EXT-089",
+                "C-EXT-090",
+                "C-EXT-091",
+                "C-EXT-093",
+                "C-EXT-095"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

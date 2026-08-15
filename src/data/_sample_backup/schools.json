@@ -1,0 +1,29 @@
+[
+  {
+    "schoolId": "SCH-A",
+    "schoolName": "천안새빛고등학교(예시)",
+    "region": "충남 천안",
+    "curriculumYear": "2025",
+    "lastReviewedAt": "2025-03-02",
+    "sourceDocument": "예시 편제표 — 실제 자료로 교체 필요",
+    "isSample": true
+  },
+  {
+    "schoolId": "SCH-B",
+    "schoolName": "천안한들고등학교(예시)",
+    "region": "충남 천안",
+    "curriculumYear": "2025",
+    "lastReviewedAt": "2025-03-02",
+    "sourceDocument": "예시 편제표 — 실제 자료로 교체 필요",
+    "isSample": true
+  },
+  {
+    "schoolId": "SCH-C",
+    "schoolName": "천안온빛고등학교(예시)",
+    "region": "충남 천안",
+    "curriculumYear": "2025",
+    "lastReviewedAt": "2025-03-02",
+    "sourceDocument": "예시 편제표 — 실제 자료로 교체 필요",
+    "isSample": true
+  }
+]

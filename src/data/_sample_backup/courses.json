@@ -1,0 +1,40 @@
+[
+  { "courseId": "C-KOR-RW", "standardName": "독서와 작문", "aliases": ["독서", "작문"], "subjectArea": "국어", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "글을 깊이 읽고 논리적으로 쓰는 힘을 길러요." },
+  { "courseId": "C-KOR-LIT", "standardName": "문학", "aliases": [], "subjectArea": "국어", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "시·소설 등 문학 작품을 읽고 해석해요." },
+  { "courseId": "C-KOR-SPK", "standardName": "화법과 언어", "aliases": ["화법", "언어"], "subjectArea": "국어", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "말하기·듣기와 언어의 규칙을 배워요." },
+
+  { "courseId": "C-MATH-ALG", "standardName": "대수", "aliases": ["수학", "수1", "수학1"], "subjectArea": "수학", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "함수와 방정식 등 수학의 기본 뼈대예요." },
+  { "courseId": "C-MATH-CAL1", "standardName": "미적분Ⅰ", "aliases": ["미적분1", "미적1"], "subjectArea": "수학", "credits": 4, "prerequisites": ["C-MATH-ALG"], "incompatibleWith": [], "description": "변화와 그래프를 다루는 미분·적분의 기초예요." },
+  { "courseId": "C-MATH-CAL2", "standardName": "미적분Ⅱ", "aliases": ["미적분2", "미적2"], "subjectArea": "수학", "credits": 4, "prerequisites": ["C-MATH-CAL1"], "incompatibleWith": [], "description": "미적분Ⅰ을 확장한 심화 미적분이에요." },
+  { "courseId": "C-MATH-GEO", "standardName": "기하", "aliases": ["기하와벡터"], "subjectArea": "수학", "credits": 4, "prerequisites": ["C-MATH-ALG"], "incompatibleWith": [], "description": "도형과 공간, 벡터를 다뤄요." },
+  { "courseId": "C-MATH-PROB", "standardName": "확률과 통계", "aliases": ["확통", "확률통계"], "subjectArea": "수학", "credits": 4, "prerequisites": ["C-MATH-ALG"], "incompatibleWith": [], "description": "경우의 수·확률·통계로 데이터를 다뤄요." },
+  { "courseId": "C-MATH-AI", "standardName": "인공지능 수학", "aliases": ["AI수학"], "subjectArea": "수학", "credits": 4, "prerequisites": ["C-MATH-ALG"], "incompatibleWith": [], "description": "인공지능에 쓰이는 수학 개념을 배워요." },
+
+  { "courseId": "C-SCI-PHY", "standardName": "물리학", "aliases": ["물리", "물리1"], "subjectArea": "과학", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "힘·운동·전기 등 자연의 기본 법칙을 배워요." },
+  { "courseId": "C-SCI-CHE", "standardName": "화학", "aliases": ["화학1"], "subjectArea": "과학", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "물질의 구조와 반응을 배워요." },
+  { "courseId": "C-SCI-BIO", "standardName": "생명과학", "aliases": ["생명", "생물", "생명1"], "subjectArea": "과학", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "생명체의 구조와 작동 원리를 배워요." },
+  { "courseId": "C-SCI-EAR", "standardName": "지구과학", "aliases": ["지구", "지학"], "subjectArea": "과학", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "지구와 우주, 대기·해양을 배워요." },
+  { "courseId": "C-SCI-ENE", "standardName": "역학과 에너지", "aliases": ["역학"], "subjectArea": "과학", "credits": 4, "prerequisites": ["C-SCI-PHY"], "incompatibleWith": [], "description": "물리학을 심화해 운동과 에너지를 탐구해요." },
+  { "courseId": "C-SCI-EM", "standardName": "전자기와 양자", "aliases": ["전자기", "양자"], "subjectArea": "과학", "credits": 4, "prerequisites": ["C-SCI-PHY"], "incompatibleWith": [], "description": "전기·자기와 양자 현상을 깊이 배워요." },
+  { "courseId": "C-SCI-CELL", "standardName": "세포와 물질대사", "aliases": ["세포"], "subjectArea": "과학", "credits": 4, "prerequisites": ["C-SCI-BIO"], "incompatibleWith": [], "description": "생명과학을 심화해 세포와 대사를 탐구해요." },
+  { "courseId": "C-SCI-CONV", "standardName": "융합과학 탐구", "aliases": ["융합과학"], "subjectArea": "과학", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "여러 과학을 융합해 주제를 탐구해요." },
+
+  { "courseId": "C-INFO-INFO", "standardName": "정보", "aliases": ["컴퓨터", "코딩"], "subjectArea": "정보", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "프로그래밍과 컴퓨팅 사고력의 기초예요." },
+  { "courseId": "C-INFO-AI", "standardName": "인공지능 기초", "aliases": ["AI기초", "인공지능기초"], "subjectArea": "정보", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "인공지능의 원리와 활용을 배워요." },
+  { "courseId": "C-INFO-DATA", "standardName": "데이터 과학", "aliases": ["데이터과학"], "subjectArea": "정보", "credits": 4, "prerequisites": ["C-INFO-INFO"], "incompatibleWith": [], "description": "데이터를 수집·분석·시각화하는 방법을 배워요." },
+  { "courseId": "C-INFO-SW", "standardName": "소프트웨어와 생활", "aliases": ["SW", "소프트웨어"], "subjectArea": "정보", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "소프트웨어가 생활에 쓰이는 사례를 탐구해요." },
+
+  { "courseId": "C-SOC-GEO", "standardName": "세계시민과 지리", "aliases": ["지리"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "세계 여러 지역과 세계시민 감각을 배워요." },
+  { "courseId": "C-SOC-SOC", "standardName": "사회와 문화", "aliases": ["사회문화"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "사회 현상과 문화를 이해해요." },
+  { "courseId": "C-SOC-POL", "standardName": "정치", "aliases": ["정치와법"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "정치 제도와 민주주의를 배워요." },
+  { "courseId": "C-SOC-LAW", "standardName": "법과 사회", "aliases": ["법"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "일상과 사회 속 법을 배워요." },
+  { "courseId": "C-SOC-ECON", "standardName": "경제", "aliases": ["경제학"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "시장과 돈이 움직이는 원리를 배워요." },
+  { "courseId": "C-SOC-ETH", "standardName": "윤리와 사상", "aliases": ["윤리"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "사람과 사회의 가치·사상을 탐구해요." },
+  { "courseId": "C-SOC-HIS", "standardName": "세계사", "aliases": ["역사"], "subjectArea": "사회", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "세계 역사의 흐름을 배워요." },
+
+  { "courseId": "C-ENG-E1", "standardName": "영어Ⅰ", "aliases": ["영어1", "영어"], "subjectArea": "영어", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "고등학교 영어의 핵심을 배워요." },
+  { "courseId": "C-ENG-RW", "standardName": "영어 독해와 작문", "aliases": ["영어독해", "영작"], "subjectArea": "영어", "credits": 4, "prerequisites": [], "incompatibleWith": [], "description": "영어 글을 읽고 쓰는 힘을 길러요." },
+
+  { "courseId": "C-ART-ART", "standardName": "미술", "aliases": [], "subjectArea": "예술", "credits": 3, "prerequisites": [], "incompatibleWith": [], "description": "미술의 기초 표현과 감상을 배워요." },
+  { "courseId": "C-ART-DES", "standardName": "미술 창작", "aliases": ["디자인", "창작"], "subjectArea": "예술", "credits": 3, "prerequisites": [], "incompatibleWith": [], "description": "자기 아이디어를 미술로 창작해요." }
+]

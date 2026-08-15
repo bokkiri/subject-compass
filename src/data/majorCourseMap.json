@@ -1,0 +1,3295 @@
+{
+  "AI대학": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "AI융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "AI의공학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "AI학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "ICT융합계열\n전기·전자·통신공학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "ICT융합계열\n컴퓨터공학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "IT대학": {
+    "core": [
+      "C-MATH-PROB",
+      "C-MATH-ALG",
+      "C-SCI-PHY",
+      "C-EXT-010",
+      "C-SCI-CHE",
+      "C-ENG-RW",
+      "C-MATH-CAL1",
+      "C-SCI-BIO",
+      "C-EXT-023",
+      "C-MATH-AI",
+      "C-SCI-CONV"
+    ],
+    "recommended": [
+      "C-ENG-E1",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "sourceUniv": 3
+  },
+  "IT융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "LIONS칼리지": {
+    "core": [],
+    "recommended": [
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 1
+  },
+  "N.C.E": {
+    "core": [
+      "C-KOR-SPK",
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-SOC-SOC",
+      "C-EXT-015",
+      "C-EXT-021",
+      "C-EXT-042",
+      "C-EXT-073"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "간호/보건": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-BIO",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "sourceUniv": 1
+  },
+  "간호대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-CHE",
+      "C-MATH-CAL2",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [
+      "C-EXT-050",
+      "C-EXT-049",
+      "C-MATH-GEO"
+    ],
+    "sourceUniv": 12
+  },
+  "간호학과": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-MATH-ALG",
+      "C-MATH-CAL2",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "건강과학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "건설": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SCI-EAR",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-ART-ART",
+      "C-INFO-INFO",
+      "C-EXT-087",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-EXT-015",
+      "C-EXT-023",
+      "C-SCI-ENE",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-052",
+      "C-EXT-033",
+      "C-EXT-034",
+      "C-EXT-035",
+      "C-INFO-AI",
+      "C-ART-DES",
+      "C-EXT-069",
+      "C-EXT-088",
+      "C-EXT-089",
+      "C-EXT-090"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "건설/건축": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-MATH-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "건설환경디자인대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "건축": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "건축대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2"
+    ],
+    "sourceUniv": 1
+  },
+  "건축학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "건축학부 건축공학전공": {
+    "core": [
+      "C-MATH-ALG",
+      "C-EXT-010",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "건축학부 건축학전공": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-MATH-GEO",
+      "C-SCI-EAR",
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "경상대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-MATH-PROB",
+      "C-SOC-HIS",
+      "C-MATH-CAL1"
+    ],
+    "recommended": [
+      "C-EXT-011",
+      "C-SOC-ECON"
+    ],
+    "sourceUniv": 5
+  },
+  "경영": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "경영·경제": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-SCI-BIO",
+      "C-INFO-INFO",
+      "C-EXT-086",
+      "C-EXT-001",
+      "C-EXT-011",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-021",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ECON",
+      "C-SOC-ETH",
+      "C-EXT-036",
+      "C-EXT-042",
+      "C-INFO-AI",
+      "C-INFO-DATA",
+      "C-EXT-089",
+      "C-EXT-090"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "경영대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-MATH-CAL1",
+      "C-SOC-SOC",
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-KOR-LIT",
+      "C-EXT-032",
+      "C-SOC-ECON",
+      "C-EXT-083",
+      "C-MATH-CAL2",
+      "C-EXT-044",
+      "C-SOC-POL",
+      "C-SOC-LAW"
+    ],
+    "recommended": [
+      "C-EXT-011",
+      "C-MATH-GEO",
+      "C-MATH-AI",
+      "C-EXT-023",
+      "C-SOC-ETH",
+      "C-EXT-042"
+    ],
+    "sourceUniv": 10
+  },
+  "경영학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "경영학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "경제통상대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "경제학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "경제학부": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [
+      "C-ENG-E1"
+    ],
+    "sourceUniv": 1
+  },
+  "경찰사법": {
+    "core": [],
+    "recommended": [
+      "C-SOC-HIS",
+      "C-SOC-ETH",
+      "C-SOC-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "공간디자인·소비자학과": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "공간정보공학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-EXT-010",
+      "C-SCI-EAR",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "공과": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "recommended": [
+      "C-SCI-EAR",
+      "C-SCI-BIO"
+    ],
+    "sourceUniv": 1
+  },
+  "공과대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-MATH-PROB",
+      "C-MATH-CAL1",
+      "C-ENG-E1",
+      "C-SCI-ENE",
+      "C-SCI-BIO",
+      "C-INFO-INFO",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-EXT-071",
+      "C-INFO-AI",
+      "C-INFO-DATA"
+    ],
+    "recommended": [
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-SCI-EAR",
+      "C-EXT-034",
+      "C-MATH-AI"
+    ],
+    "sourceUniv": 18
+  },
+  "공학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-MATH-PROB",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "공학대학": {
+    "core": [
+      "C-SCI-PHY",
+      "C-EXT-010",
+      "C-SCI-CHE",
+      "C-EXT-023",
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-SOC-SOC",
+      "C-MATH-PROB",
+      "C-ENG-RW",
+      "C-EXT-088",
+      "C-EXT-087"
+    ],
+    "recommended": [
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-SCI-EAR"
+    ],
+    "sourceUniv": 2
+  },
+  "공학대학 스마트융합공학부": {
+    "core": [],
+    "recommended": [
+      "C-SCI-PHY",
+      "C-MATH-PROB",
+      "C-EXT-010",
+      "C-SCI-CHE",
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 1
+  },
+  "공학융합학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "공합융합계열": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "공합융합계열\n에너지신소재화학공학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "과학기술대학": {
+    "core": [
+      "C-SCI-CHE",
+      "C-MATH-CAL1",
+      "C-SCI-BIO",
+      "C-MATH-ALG",
+      "C-MATH-PROB",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-SCI-CELL",
+      "C-EXT-050",
+      "C-EXT-051",
+      "C-MATH-CAL2",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-MATH-AI",
+      "C-EXT-049",
+      "C-MATH-GEO"
+    ],
+    "sourceUniv": 3
+  },
+  "교육": {
+    "core": [
+      "C-KOR-SPK",
+      "C-INFO-AI",
+      "C-EXT-091",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-EXT-078",
+      "C-EXT-083",
+      "C-EXT-086",
+      "C-EXT-001",
+      "C-EXT-002",
+      "C-EXT-022",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-025",
+      "C-EXT-021",
+      "C-EXT-035",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ECON",
+      "C-SOC-ETH",
+      "C-EXT-036",
+      "C-INFO-DATA",
+      "C-EXT-084",
+      "C-EXT-088",
+      "C-EXT-089",
+      "C-EXT-090",
+      "C-EXT-092",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-MATH-AI"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "교통공학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "국가안보융합학부": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "국사학과": {
+    "core": [
+      "C-SOC-HIS"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "국어국문학과": {
+    "core": [],
+    "recommended": [
+      "C-ENG-E1"
+    ],
+    "sourceUniv": 1
+  },
+  "국제관계학과": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "국제대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "국제학부": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "글로벌융합대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-SOC-HIS",
+      "C-EXT-083"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "글로벌인문·지역대학": {
+    "core": [
+      "C-EXT-046"
+    ],
+    "recommended": [
+      "C-EXT-084",
+      "C-SOC-HIS",
+      "C-EXT-044",
+      "C-EXT-083"
+    ],
+    "sourceUniv": 1
+  },
+  "글로벌인문대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "기계": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-INFO-INFO",
+      "C-MATH-AI",
+      "C-EXT-023",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-EXT-071",
+      "C-INFO-AI",
+      "C-INFO-DATA"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "기계공학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "기계정보공학과": {
+    "core": [
+      "C-EXT-010"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-PROB",
+      "C-SCI-PHY"
+    ],
+    "sourceUniv": 1
+  },
+  "기술경영융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-SCI-PHY",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "농림·수산": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-INFO-INFO",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-073",
+      "C-INFO-AI",
+      "C-INFO-DATA"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "농업생명과학대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-ENG-E1",
+      "C-SCI-CHE",
+      "C-SCI-PHY",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-EAR",
+      "C-EXT-083",
+      "C-SOC-HIS",
+      "C-SOC-SOC"
+    ],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-049",
+      "C-EXT-011"
+    ],
+    "sourceUniv": 6
+  },
+  "농업생명과학대학(농업경제학과 진로희망자 제외)": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-GEO",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "농업생명환경대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "데이터사이언스학과": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "도시공학과": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "도시행정학과": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "독립학부": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-MATH-PROB",
+      "C-EXT-010",
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-SCI-EAR",
+      "C-ENG-E1",
+      "C-SOC-SOC",
+      "C-SCI-PHY",
+      "C-SOC-ECON",
+      "C-SOC-ETH"
+    ],
+    "recommended": [
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 2
+  },
+  "동물생명과학대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-ENG-RW",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-EXT-023"
+    ],
+    "recommended": [
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 1
+  },
+  "디자인스포츠대학": {
+    "core": [
+      "C-ART-ART",
+      "C-ART-DES",
+      "C-EXT-069",
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-EXT-023",
+      "C-ENG-RW",
+      "C-EXT-061"
+    ],
+    "recommended": [
+      "C-ENG-E1"
+    ],
+    "sourceUniv": 1
+  },
+  "디자인환경대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "문과": {
+    "core": [
+      "C-SOC-HIS",
+      "C-ENG-E1",
+      "C-EXT-078",
+      "C-SOC-ETH"
+    ],
+    "recommended": [
+      "C-EXT-083",
+      "C-SOC-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "문화관광대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-EXT-073"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "문화사회과학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-EXT-078"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "문화예술·공과대학": {
+    "core": [
+      "C-EXT-010",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-ENG-RW",
+      "C-EXT-023",
+      "C-MATH-PROB",
+      "C-MATH-GEO",
+      "C-INFO-INFO",
+      "C-INFO-AI",
+      "C-SCI-EAR",
+      "C-SCI-BIO",
+      "C-SCI-CONV",
+      "C-KOR-SPK",
+      "C-KOR-LIT",
+      "C-KOR-RW",
+      "C-SOC-SOC"
+    ],
+    "recommended": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "sourceUniv": 1
+  },
+  "문화융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ART-ART",
+      "C-EXT-071",
+      "C-EXT-073",
+      "C-EXT-086",
+      "C-EXT-087",
+      "C-EXT-088",
+      "C-EXT-090",
+      "C-EXT-089",
+      "C-EXT-061",
+      "C-EXT-062",
+      "C-EXT-063"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "물리": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [
+      "C-SCI-CHE",
+      "C-EXT-049"
+    ],
+    "sourceUniv": 1
+  },
+  "물리학과": {
+    "core": [
+      "C-SCI-PHY",
+      "C-MATH-ALG",
+      "C-MATH-GEO",
+      "C-EXT-010",
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 3
+  },
+  "미디어기술콘텐츠학과": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "미래라이프융합대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-SOC-HIS"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "미래인재대학": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "바이오로직스공학부": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "바이오메디컬화학공학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "바이오시스템": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-SCI-EAR"
+    ],
+    "sourceUniv": 1
+  },
+  "바이오시스템융합학부": {
+    "core": [
+      "C-SCI-BIO"
+    ],
+    "recommended": [
+      "C-SCI-CHE"
+    ],
+    "sourceUniv": 1
+  },
+  "반도체공학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "반려동물산업학부": {
+    "core": [
+      "C-ENG-E1",
+      "C-EXT-020"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "법과": {
+    "core": [],
+    "recommended": [
+      "C-SOC-ETH"
+    ],
+    "sourceUniv": 1
+  },
+  "법과대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "법사회대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "베어드학부대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "보건과학대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-ENG-RW",
+      "C-MATH-PROB",
+      "C-EXT-023",
+      "C-EXT-036",
+      "C-EXT-073",
+      "C-SCI-PHY",
+      "C-EXT-093",
+      "C-MATH-GEO"
+    ],
+    "recommended": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-MATH-CAL2",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "sourceUniv": 2
+  },
+  "본부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "불교": {
+    "core": [
+      "C-SOC-HIS",
+      "C-SOC-ETH"
+    ],
+    "recommended": [
+      "C-SOC-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "사범": {
+    "core": [
+      "C-SOC-HIS",
+      "C-SOC-GEO",
+      "C-SCI-CHE"
+    ],
+    "recommended": [
+      "C-SOC-ETH",
+      "C-SCI-BIO",
+      "C-INFO-INFO"
+    ],
+    "sourceUniv": 1
+  },
+  "사범대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-EXT-083",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-PROB",
+      "C-SOC-HIS",
+      "C-KOR-RW",
+      "C-SCI-BIO",
+      "C-MATH-CAL1",
+      "C-SCI-EAR",
+      "C-MATH-GEO",
+      "C-KOR-SPK",
+      "C-MATH-CAL2",
+      "C-KOR-LIT",
+      "C-EXT-084",
+      "C-SOC-GEO",
+      "C-ENG-RW",
+      "C-SOC-ETH",
+      "C-SOC-SOC",
+      "C-EXT-091",
+      "C-EXT-033",
+      "C-EXT-073",
+      "C-EXT-086",
+      "C-EXT-095",
+      "C-EXT-035",
+      "C-EXT-020",
+      "C-EXT-022",
+      "C-EXT-023",
+      "C-EXT-032",
+      "C-EXT-036",
+      "C-SOC-POL",
+      "C-SOC-ECON",
+      "C-SOC-LAW",
+      "C-EXT-037",
+      "C-EXT-010",
+      "C-EXT-061",
+      "C-EXT-062",
+      "C-EXT-063",
+      "C-INFO-INFO",
+      "C-EXT-080",
+      "C-EXT-001",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-050",
+      "C-EXT-053",
+      "C-EXT-088",
+      "C-EXT-090"
+    ],
+    "recommended": [],
+    "sourceUniv": 10
+  },
+  "사범대학(국어교육과, 영어교육과, 교육학과)": {
+    "core": [
+      "C-ENG-E1",
+      "C-EXT-083"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회과학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-EXT-001",
+      "C-EXT-002",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-025",
+      "C-EXT-021",
+      "C-EXT-033",
+      "C-EXT-034",
+      "C-EXT-035",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ECON",
+      "C-SOC-ETH",
+      "C-EXT-036",
+      "C-EXT-042",
+      "C-INFO-AI",
+      "C-EXT-088",
+      "C-EXT-089",
+      "C-SCI-BIO",
+      "C-EXT-070",
+      "C-INFO-INFO",
+      "C-EXT-083",
+      "C-EXT-086",
+      "C-EXT-011",
+      "C-MATH-AI",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-061",
+      "C-EXT-073",
+      "C-INFO-DATA",
+      "C-EXT-090",
+      "C-EXT-091",
+      "C-EXT-093",
+      "C-EXT-092"
+    ],
+    "recommended": [],
+    "sourceUniv": 3
+  },
+  "사회과학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-SOC-SOC",
+      "C-MATH-PROB",
+      "C-KOR-SPK",
+      "C-EXT-083",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-EXT-032",
+      "C-KOR-RW",
+      "C-SOC-ETH",
+      "C-SOC-HIS",
+      "C-MATH-CAL1",
+      "C-SOC-GEO",
+      "C-EXT-090",
+      "C-ENG-RW",
+      "C-SOC-ECON",
+      "C-EXT-023",
+      "C-EXT-039",
+      "C-EXT-036",
+      "C-EXT-001",
+      "C-EXT-042",
+      "C-EXT-037",
+      "C-EXT-033",
+      "C-EXT-034",
+      "C-KOR-LIT",
+      "C-EXT-002",
+      "C-EXT-022",
+      "C-EXT-087",
+      "C-EXT-015",
+      "C-EXT-021",
+      "C-EXT-086",
+      "C-EXT-088"
+    ],
+    "recommended": [
+      "C-EXT-035"
+    ],
+    "sourceUniv": 12
+  },
+  "사회과학대학(사회학과, 심리학과, 사회복지학과, 행정학부 제외)": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회기반시스템공학부 건설환경플랜트공학전공": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회기반시스템공학부 도시시스템공학전공": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회복지학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "사회융합계열": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회융합계열\n경영학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "사회학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "산림환경과학대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-ENG-RW",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-EAR",
+      "C-EXT-033",
+      "C-EXT-034"
+    ],
+    "recommended": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 1
+  },
+  "산업": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "산업보안학과(자연)": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "생명": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "생명공학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "생명과학·환경/생활과학/농림": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SCI-CELL",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-SCI-PHY"
+    ],
+    "sourceUniv": 1
+  },
+  "생명과학과": {
+    "core": [
+      "C-SCI-BIO",
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "생명과학대학": {
+    "core": [],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "sourceUniv": 1
+  },
+  "생명시스템과학대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "생명자원공학부(동물생명공학전공, 식물생명공학전공)": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "생명자원과학대학": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-ENG-E1",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "생태환경대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE"
+    ],
+    "recommended": [
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "sourceUniv": 1
+  },
+  "생활과학": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-ART-ART",
+      "C-EXT-070",
+      "C-INFO-INFO",
+      "C-EXT-087",
+      "C-EXT-001",
+      "C-MATH-AI",
+      "C-EXT-023",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-ART-DES",
+      "C-EXT-069",
+      "C-EXT-073",
+      "C-INFO-AI",
+      "C-INFO-DATA",
+      "C-EXT-090"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "생활과학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-EXT-083",
+      "C-SCI-CHE",
+      "C-SOC-HIS",
+      "C-SCI-BIO",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-INFO-INFO"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "sourceUniv": 7
+  },
+  "생활체육대학": {
+    "core": [
+      "C-EXT-063",
+      "C-EXT-061",
+      "C-EXT-062"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "석당인재학부": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "세무학과": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "소프트웨어대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "소프트웨어융합대학": {
+    "core": [
+      "C-MATH-PROB",
+      "C-MATH-CAL1",
+      "C-MATH-ALG",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-INFO-INFO",
+      "C-INFO-AI",
+      "C-INFO-DATA",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-SCI-CHE",
+      "C-EXT-010"
+    ],
+    "sourceUniv": 5
+  },
+  "소프트웨어학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "수산해양대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-SCI-BIO",
+      "C-SCI-EAR",
+      "C-MATH-ALG",
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "수의과대학": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-SCI-PHY",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-ENG-RW",
+      "C-EXT-023",
+      "C-EXT-010"
+    ],
+    "recommended": [],
+    "sourceUniv": 7
+  },
+  "수학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "수학·물리·천문·지구": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-INFO-INFO",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-EXT-011",
+      "C-MATH-AI",
+      "C-EXT-015",
+      "C-EXT-024",
+      "C-EXT-021",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-INFO-AI",
+      "C-INFO-DATA"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "수학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 3
+  },
+  "스마트모빌리티융합대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-SOC-HIS"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "스마트모빌리티학부": {
+    "core": [],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "sourceUniv": 1
+  },
+  "스마트보안학부": {
+    "core": [],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "스포츠과학대학": {
+    "core": [
+      "C-EXT-063"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "스포츠문화예술대학": {
+    "core": [
+      "C-EXT-063",
+      "C-EXT-061"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "시스템생명공학과": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "식품공학과(식품공학전공, 식품영양전공)": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "식품영양학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "신학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "심리학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "약학": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [
+      "C-SCI-PHY"
+    ],
+    "sourceUniv": 2
+  },
+  "약학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "약학대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-PROB",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2",
+      "C-SCI-PHY",
+      "C-MATH-GEO",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-010",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 10
+  },
+  "약학부": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "언어·문학": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-EXT-083",
+      "C-EXT-086",
+      "C-EXT-001",
+      "C-EXT-002",
+      "C-EXT-022",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-025",
+      "C-EXT-021",
+      "C-EXT-034",
+      "C-EXT-035",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ETH",
+      "C-EXT-036",
+      "C-EXT-042",
+      "C-EXT-073",
+      "C-INFO-AI",
+      "C-EXT-084",
+      "C-EXT-088",
+      "C-EXT-089"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "에너지바이오대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-CHE",
+      "C-MATH-CAL2",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-PHY",
+      "C-SCI-BIO",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "에너지시스템공학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "에너지환경공학과": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "열린전공학부(인문)": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [
+      "C-SOC-HIS",
+      "C-SOC-ETH",
+      "C-SOC-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "열린전공학부(자연)": {
+    "core": [],
+    "recommended": [
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "sourceUniv": 1
+  },
+  "영농창업인재전형\n농업생명과학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-PROB",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-SOC-HIS"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "영어영문학과": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 1
+  },
+  "예술": {
+    "core": [],
+    "recommended": [
+      "C-SOC-HIS",
+      "C-SOC-ETH",
+      "C-SOC-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "예술공학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "예술체육대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "운곡프론티어교양대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-SOC-HIS"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "웰니스지역공학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-SOC-HIS"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "융합공학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-CHE",
+      "C-SCI-PHY",
+      "C-SCI-BIO",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "융합대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "융합응용화학과": {
+    "core": [
+      "C-SCI-CHE"
+    ],
+    "recommended": [
+      "C-MATH-ALG",
+      "C-EXT-010"
+    ],
+    "sourceUniv": 1
+  },
+  "의과대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-MATH-ALG",
+      "C-ENG-E1",
+      "C-MATH-PROB",
+      "C-SCI-CHE",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2",
+      "C-SCI-PHY",
+      "C-MATH-GEO",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-010"
+    ],
+    "recommended": [],
+    "sourceUniv": 13
+  },
+  "의과학대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-050",
+      "C-SCI-CELL"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "의류학과": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "의생명과학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "의생명과학대학": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-EXT-023",
+      "C-EXT-010"
+    ],
+    "recommended": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "sourceUniv": 1
+  },
+  "의약학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-EXT-032",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-EXT-024",
+      "C-EXT-023",
+      "C-EXT-025",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-SOC-ETH",
+      "C-EXT-036"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "의약학계열": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "의예과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-CHE",
+      "C-SCI-BIO"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "의학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [
+      "C-SCI-PHY"
+    ],
+    "sourceUniv": 1
+  },
+  "의학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "이과": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "recommended": [
+      "C-SCI-BIO"
+    ],
+    "sourceUniv": 1
+  },
+  "이과대학": {
+    "core": [],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-EXT-052",
+      "C-EXT-053"
+    ],
+    "sourceUniv": 1
+  },
+  "이학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "인공지능융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-INFO-INFO"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049"
+    ],
+    "sourceUniv": 1
+  },
+  "인공지능학과": {
+    "core": [
+      "C-SCI-PHY",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "인문": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "인문/예체능": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "인문계열": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "인문과학대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "인문대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-EXT-083",
+      "C-SOC-HIS",
+      "C-MATH-ALG",
+      "C-SOC-SOC",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-EXT-080",
+      "C-EXT-081",
+      "C-EXT-078",
+      "C-KOR-SPK",
+      "C-EXT-035",
+      "C-ENG-RW",
+      "C-EXT-023",
+      "C-EXT-104",
+      "C-SOC-ETH",
+      "C-EXT-084",
+      "C-EXT-037",
+      "C-EXT-022",
+      "C-EXT-028",
+      "C-EXT-116",
+      "C-EXT-032",
+      "C-EXT-041",
+      "C-EXT-088",
+      "C-EXT-089",
+      "C-EXT-082"
+    ],
+    "recommended": [],
+    "sourceUniv": 9
+  },
+  "인문사회과학대학": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-EXT-083"
+    ],
+    "recommended": [
+      "C-EXT-001",
+      "C-EXT-002",
+      "C-EXT-022",
+      "C-EXT-023",
+      "C-SOC-ETH",
+      "C-EXT-036"
+    ],
+    "sourceUniv": 1
+  },
+  "인문사회대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-SOC-ECON",
+      "C-MATH-PROB",
+      "C-EXT-010",
+      "C-EXT-037",
+      "C-ENG-RW",
+      "C-EXT-023",
+      "C-EXT-022",
+      "C-EXT-028",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ETH",
+      "C-EXT-088",
+      "C-EXT-090",
+      "C-KOR-LIT",
+      "C-EXT-035",
+      "C-EXT-078",
+      "C-EXT-116",
+      "C-EXT-104"
+    ],
+    "recommended": [
+      "C-MATH-ALG",
+      "C-EXT-083"
+    ],
+    "sourceUniv": 2
+  },
+  "인문사회융합학부": {
+    "core": [
+      "C-ENG-E1",
+      "C-SOC-HIS",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "인문콘텐츠대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "인문학": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-SOC-HIS",
+      "C-SOC-SOC",
+      "C-EXT-032",
+      "C-EXT-001",
+      "C-EXT-002",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-025",
+      "C-EXT-021",
+      "C-EXT-033",
+      "C-EXT-034",
+      "C-EXT-035",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ECON",
+      "C-SOC-ETH",
+      "C-EXT-036",
+      "C-EXT-042",
+      "C-INFO-AI",
+      "C-EXT-088",
+      "C-EXT-089",
+      "C-EXT-092"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "자동차융합대학": {
+    "core": [
+      "C-MATH-CAL1",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "자연": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "자연/공학(수학과 제외)": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "자연계열": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "자연과학·공공보건안전대학": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "자연과학대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-CHE",
+      "C-SCI-PHY",
+      "C-MATH-PROB",
+      "C-SCI-BIO",
+      "C-MATH-CAL1",
+      "C-MATH-CAL2",
+      "C-SCI-EAR",
+      "C-MATH-GEO",
+      "C-ENG-E1",
+      "C-EXT-010",
+      "C-ENG-RW"
+    ],
+    "recommended": [
+      "C-MATH-AI",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "sourceUniv": 12
+  },
+  "자연과학대학\n(스포츠융합과학과 제외)": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "sourceUniv": 1
+  },
+  "자연과학융합학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "자유전공학부": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "자유전공학부(인문)": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "자유전공학부(자연)": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [
+      "C-ENG-E1"
+    ],
+    "sourceUniv": 1
+  },
+  "자율전공학부(4년)": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "재료": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-SCI-EAR",
+      "C-INFO-INFO",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-EXT-011",
+      "C-MATH-AI",
+      "C-EXT-015",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-073"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "재료/화공·고분자·에너지": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-EXT-050"
+    ],
+    "recommended": [
+      "C-SCI-EM"
+    ],
+    "sourceUniv": 1
+  },
+  "전기·전자": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "전기·전자·컴퓨터": {
+    "core": [
+      "C-KOR-SPK",
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-PHY",
+      "C-INFO-INFO",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-EXT-011",
+      "C-MATH-AI",
+      "C-EXT-015",
+      "C-EXT-024",
+      "C-EXT-021",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-071",
+      "C-EXT-073",
+      "C-INFO-AI",
+      "C-INFO-DATA",
+      "C-EXT-089"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "전자전기공학부": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "전자전기컴퓨터공학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-EXT-010",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "전자정보공과대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-INFO-INFO"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "sourceUniv": 1
+  },
+  "전자정보대학": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "정보기술대학": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "정보대학": {
+    "core": [],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "sourceUniv": 1
+  },
+  "정보의생명공학대학": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "정보통신대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "정보통신전자공학부": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "정책법학대학": {
+    "core": [
+      "C-KOR-SPK",
+      "C-KOR-RW",
+      "C-KOR-LIT",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SOC-GEO",
+      "C-EXT-032",
+      "C-EXT-083"
+    ],
+    "recommended": [
+      "C-EXT-001",
+      "C-EXT-002",
+      "C-EXT-023",
+      "C-SOC-POL",
+      "C-SOC-LAW",
+      "C-SOC-ECON",
+      "C-SOC-ETH"
+    ],
+    "sourceUniv": 1
+  },
+  "조경학과": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "조기취업형계약학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "중국어문화학과": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "지능형반도체공학과": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "지식융합학부": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "창의공과대학": {
+    "core": [
+      "C-MATH-CAL1",
+      "C-SCI-PHY",
+      "C-MATH-ALG",
+      "C-SCI-CHE",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-EXT-049",
+      "C-SCI-EM",
+      "C-MATH-PROB"
+    ],
+    "sourceUniv": 1
+  },
+  "창의융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY",
+      "C-MATH-GEO",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "창의융합학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "천문·지구": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-EAR",
+      "C-MATH-CAL2",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-EXT-052",
+      "C-EXT-053"
+    ],
+    "sourceUniv": 1
+  },
+  "철학과": {
+    "core": [
+      "C-ENG-E1",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단ICT융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단바이오융합대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단소재공학과": {
+    "core": [
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단융합": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단융합대학 국방지능정보융합공학부": {
+    "core": [],
+    "recommended": [
+      "C-SCI-PHY",
+      "C-SCI-EAR",
+      "C-EXT-010",
+      "C-MATH-PROB"
+    ],
+    "sourceUniv": 1
+  },
+  "첨단융합대학 바이오신약융합학부": {
+    "core": [],
+    "recommended": [
+      "C-SCI-BIO",
+      "C-SCI-CHE",
+      "C-EXT-010",
+      "C-MATH-PROB"
+    ],
+    "sourceUniv": 1
+  },
+  "첨단융합대학 차세대반도체융합공학부": {
+    "core": [],
+    "recommended": [
+      "C-EXT-010",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-PROB"
+    ],
+    "sourceUniv": 1
+  },
+  "첨단융합학부": {
+    "core": [],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2"
+    ],
+    "sourceUniv": 1
+  },
+  "첨단융합학부 융합바이오헬스전공": {
+    "core": [
+      "C-MATH-ALG",
+      "C-EXT-010",
+      "C-SCI-CHE",
+      "C-SCI-BIO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단융합학부 지능형반도체전공": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-PHY",
+      "C-SCI-CHE"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "첨단융합학부 첨단인공지능전공": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "체육대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "치과대학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-SCI-PHY"
+    ],
+    "recommended": [
+      "C-MATH-CAL2",
+      "C-EXT-050",
+      "C-EXT-049",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "sourceUniv": 4
+  },
+  "치의학대학원": {
+    "core": [],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-MATH-CAL2"
+    ],
+    "sourceUniv": 1
+  },
+  "치의학전문대학원(학석사통합과정)": {
+    "core": [
+      "C-MATH-ALG",
+      "C-SCI-CHE",
+      "C-SCI-BIO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "컴퓨터": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-MATH-GEO"
+    ],
+    "recommended": [
+      "C-MATH-AI"
+    ],
+    "sourceUniv": 1
+  },
+  "컴퓨터과학부": {
+    "core": [
+      "C-MATH-ALG",
+      "C-EXT-010"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "컴퓨터정보공학부": {
+    "core": [
+      "C-SCI-PHY",
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "토목공학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-EXT-010",
+      "C-SCI-PHY"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "통계학과": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "학부대학": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-GEO",
+      "C-MATH-CAL2"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "한의학전문대학원": {
+    "core": [
+      "C-SCI-CHE",
+      "C-SCI-BIO"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "행정학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB",
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "화공·고분자·에너지": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-025",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-EXT-073"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "화학": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-MATH-CAL2",
+      "C-SCI-CHE",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [
+      "C-MATH-GEO",
+      "C-SCI-PHY",
+      "C-SCI-BIO",
+      "C-SCI-ENE",
+      "C-SCI-EM"
+    ],
+    "sourceUniv": 1
+  },
+  "화학·생명과학·환경": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-CAL1",
+      "C-MATH-PROB",
+      "C-ENG-E1",
+      "C-EXT-020",
+      "C-ENG-RW",
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-SCI-BIO",
+      "C-INFO-INFO",
+      "C-MATH-GEO",
+      "C-MATH-CAL2",
+      "C-MATH-AI",
+      "C-EXT-022",
+      "C-EXT-023",
+      "C-EXT-024",
+      "C-EXT-025",
+      "C-EXT-021",
+      "C-SCI-ENE",
+      "C-SCI-EM",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051",
+      "C-INFO-AI",
+      "C-INFO-DATA"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "화학공학과": {
+    "core": [
+      "C-SCI-PHY",
+      "C-SCI-CHE",
+      "C-MATH-ALG",
+      "C-EXT-010",
+      "C-MATH-CAL2",
+      "C-MATH-GEO",
+      "C-EXT-049",
+      "C-EXT-050"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "화학과": {
+    "core": [
+      "C-SCI-CHE",
+      "C-MATH-ALG",
+      "C-MATH-CAL2",
+      "C-SCI-PHY",
+      "C-SCI-BIO",
+      "C-EXT-049",
+      "C-EXT-050",
+      "C-SCI-CELL",
+      "C-EXT-051"
+    ],
+    "recommended": [],
+    "sourceUniv": 2
+  },
+  "환경공학부": {
+    "core": [
+      "C-MATH-ALG"
+    ],
+    "recommended": [
+      "C-SCI-CHE",
+      "C-SCI-PHY"
+    ],
+    "sourceUniv": 1
+  },
+  "환경생명자원대학": {
+    "core": [
+      "C-ENG-E1"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "환경원예학과": {
+    "core": [
+      "C-SCI-BIO",
+      "C-SCI-CHE"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  },
+  "회계학과": {
+    "core": [
+      "C-MATH-ALG",
+      "C-MATH-PROB"
+    ],
+    "recommended": [],
+    "sourceUniv": 1
+  }
+}

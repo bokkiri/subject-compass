@@ -1,0 +1,451 @@
+{
+  "dataSearch": {
+    "content": [
+      {
+        "major": "가정교육과",
+        "salary": "188.2",
+        "employment": "<strong>40</strong> % 이상",
+        "department": "가정교육과",
+        "summary": "가정교육과의 교육과정은 크게 아동학, 가정관리학, 의류학, 식품학, 영양학, 주거학, 교과교육 분야로 나누어지고 생활의 과학화 및 생활 개선을 목표로 여러 기초 과학의 원리를 응용하고 통합하여 실천할 수 있는 학습 기회를 제공합니다. 가정교육과는 학문과 인성을 두루 갖추고 청소년들이 건강한 가정생활을 영위할 수 있도록 조력자의 역할을 수행할 수 있는 가정과 교사를 양성하는 것을 목표로 하고 있습니다.",
+        "relate_subject": [
+          {
+            "subject_description": "영어, 기술ㆍ가정, 윤리",
+            "subject_name": "공통과목"
+          },
+          {
+            "subject_description": "기술ㆍ가정교과 : 기술ㆍ가정<br>사회교과 : 생활과 윤리, 윤리와 사상<br>교양교과 : 철학, 심리학, 교육학",
+            "subject_name": "일반선택과목"
+          },
+          {
+            "subject_description": "공학일반, 창의경영, 해양 문화와 기술, 가정과학, 지식재산 일반",
+            "subject_name": "진로선택과목"
+          },
+          {
+            "subject_description": "사회과제 연구",
+            "subject_name": "전문교과Ⅰ"
+          },
+          {
+            "subject_description": "기초제도, 식품과학, 식품위생 ",
+            "subject_name": "전문교과Ⅱ"
+          },
+          {
+            "subject_description": null,
+            "subject_name": "[출처 : 세종특별자치시교육청, 보인다 시리즈 5.0 - 전공ㆍ적성 개발 길라잡이 ‘기술가정교육과’]"
+          }
+        ],
+        "career_act": [
+          {
+            "act_name": "가정과학 관련 서적 탐독",
+            "act_description": "기술ㆍ가정 교과에 대한 관심 및 학업능력을 제시할 수 있는 동아리 및 교과활동 "
+          }
+        ],
+        "job": "가정복지사, 가족상담사, 가족생활교육사, 건강가정사, 대학교수, 소비자상담사, 소비자전문가, 식품공학기술자, 심리상담사, 아동발달전문가, 영양교사, 영양사, 의류기사, 조리기능사, 중등학교교사",
+        "qualifications": "가정복지사, 가정생활교육사, 가족상담사, 의류산업기사, 중등학교2급정교사",
+        "interest": "평소 친구, 가족, 주변 사람 등 사람에 대해 관심이 많거나 주변 사람의 고민을 들어 주는 상담에 흥미가 있다면 이 학과에 관심을 가져 볼 만합니다. 특히 인간에 대한 사랑과 타인에 대한 배려, 봉사 정신 등이 있다면 학과 공부에 도움이 됩니다. 기술ㆍ가정 교과목이나 심리 및 교육에 적성이 있다면 도움이 됩니다. ",
+        "property": "영양학, 의류학, 주거학, 가족학 등의 교과내용학을 배웁니다. 가정과교육론, 가정과교수법 등의 교과교육학에 대한 전문적인 지식을 배웁니다. 조리실습, 의복구성실습, 주거실습 등을 통해 가정교과에 대한 이론적인 지식뿐 아니라 서양의복 구성, 한국 조리 및 서양 조리 실습, 조리과학 등의 실험ㆍ실습 교과목을 통하여 실천적 능력을 함양합니다.",
+        "enter_field": [
+          {
+            "gradeuate": "기업 및 산업체",
+            "description": "금융계 일반기업체, 섬유 및 의류업체, 유통업체, 식품업체, 아동관련 업체, 마케팅업체, 언론사, 유치원, 어린이집, 보육기관, 소비자 관련 업체 병원, 급식전문업체 "
+          },
+          {
+            "gradeuate": "학계 및 연구기관",
+            "description": "공사립 중ㆍ고등학교, 대학, 교육 관련 연구소"
+          },
+          {
+            "gradeuate": "정부 및 공공기관",
+            "description": "건강가정지원센터, 교육청, 교육부, 한국건강가정진흥원, 농림축산식품부, 여성가족부, 한국소비자원, 복지관 및 시설, 국제아동기구 등 가정 및 교육 관련 공공기관"
+          }
+        ],
+        "main_subject": [
+          {
+            "SBJECT_NM": "가정과교육론",
+            "SBJECT_SUMRY": "가정과 교육의 여러 분야에 대한 기초적인 내용을 다루어 가정과 교육을 종합적으로 이해할 수 있도록 학습"
+          },
+          {
+            "SBJECT_NM": "가정과교수법",
+            "SBJECT_SUMRY": "가정과 교수-학습에 필요한 교수-학습 이론을 다루고, 이를 실제 수업에 적용하는 방법에 대한 이론과 실습"
+          },
+          {
+            "SBJECT_NM": "아동학",
+            "SBJECT_SUMRY": "인간 발달 중 전반부인 아동 발달의 기본 개념, 관련 이론 그리고 연구 방법을 이해하고 태아기부터 영아기, 유아기, 아동기에 걸쳐 나타나는 신체적, 심리적, 인지적, 사회적, 도덕적 발달의 변화 양상 학습"
+          },
+          {
+            "SBJECT_NM": "주거학",
+            "SBJECT_SUMRY": "주거학의 학문 영역에 관해 개괄적으로 이해하고, 개인과 가족생활에 있어서 주거의 의미, 주거환경심리, 가족특성과 주거, 주거규범과 주거행동, 주거와 문화, 디자인과 주거, 주택정책, 주거복지, 주택시장, 주거관리 등의 주제를 중심으로 학습"
+          },
+          {
+            "SBJECT_NM": "영양학",
+            "SBJECT_SUMRY": "영양소를 섭취하고 소화, 흡수, 운반, 이용, 배설하는 전 과정을 이해하고 건강과 질병에 대한 식품, 영양소, 대사과정에서의 상호작용 및 균형에 대한 과학적인 지식 학습"
+          }
+        ],
+        "university": [
+          {
+            "area": "서울특별시",
+            "schoolURL": "http://www.korea.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "고려대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "서울특별시",
+            "schoolURL": "https://www.dongguk.edu/main",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "동국대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "대전광역시",
+            "schoolURL": "http://www.pcu.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "배재대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "대구광역시",
+            "schoolURL": "http://www.knu.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "경북대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "강원특별자치도",
+            "schoolURL": "https://www.cku.ac.kr/cku/index.do#none",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "가톨릭관동대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "강원특별자치도",
+            "schoolURL": "http://www.kangwon.ac.kr/",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "강원대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "충청북도",
+            "schoolURL": "https://www.knue.ac.kr/www/index.do",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "한국교원대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "전북특별자치도",
+            "schoolURL": "https://www.wku.ac.kr/",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "원광대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "전북특별자치도",
+            "schoolURL": "http://www.jj.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "전주대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "경상북도",
+            "schoolURL": "http://web.dongguk.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "동국대학교 WISE캠퍼스",
+            "totalCount": ""
+          },
+          {
+            "area": "경상남도",
+            "schoolURL": "http://www.kyungnam.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "경남대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "전남광주통합특별시",
+            "schoolURL": "http://www.jnu.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "전남대학교",
+            "totalCount": ""
+          },
+          {
+            "area": "전남광주통합특별시",
+            "schoolURL": "https://www.chosun.ac.kr",
+            "campus_nm": "제1캠퍼스",
+            "majorName": "가정교육과",
+            "schoolName": "조선대학교",
+            "totalCount": ""
+          }
+        ],
+        "chartData": [
+          {
+            "gender": [
+              {
+                "item": "남자",
+                "data": "48.2",
+                "name": "입학상황(성별)"
+              },
+              {
+                "item": "여자",
+                "data": "51.8",
+                "name": "입학상황(성별)"
+              }
+            ],
+            "field": [
+              {
+                "item": "경영·사무·금융·보험직",
+                "data": "12.2",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "연구직 및 공학 기술직",
+                "data": "1.3",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "교육·법률·사회복지·경찰·소방직 및 군인",
+                "data": "73.7",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "보건·의료직",
+                "data": "0",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "예술·디자인·방송·스포츠직",
+                "data": "0.6",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "미용·여행·숙박·음식·경비·청소직",
+                "data": "5.1",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "영업·판매·운전·운송직",
+                "data": "5.8",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "건설·채굴직",
+                "data": "0",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "설치·정비·생산직",
+                "data": "1.3",
+                "name": "졸업 후 첫 직업 분야"
+              },
+              {
+                "item": "농림어업직",
+                "data": "0",
+                "name": "졸업 후 첫 직업 분야"
+              }
+            ],
+            "after_graduation": [
+              {
+                "item": "전체",
+                "data": "3.1",
+                "name": "졸업 후 상황"
+              },
+              {
+                "item": "남",
+                "data": "3.9",
+                "name": "졸업 후 상황"
+              },
+              {
+                "item": "여",
+                "data": "2.5",
+                "name": "졸업 후 상황"
+              }
+            ],
+            "avg_salary": [
+              {
+                "item": "0~150만원",
+                "data": "29.3",
+                "name": "졸업 후 첫 직장 월평균 임금"
+              },
+              {
+                "item": "151~200만원",
+                "data": "21",
+                "name": "졸업 후 첫 직장 월평균 임금"
+              },
+              {
+                "item": "201~250만원",
+                "data": "34.4",
+                "name": "졸업 후 첫 직장 월평균 임금"
+              },
+              {
+                "item": "251~300만원",
+                "data": "11.5",
+                "name": "졸업 후 첫 직장 월평균 임금"
+              },
+              {
+                "item": "301만원 이상",
+                "data": "3.8",
+                "name": "졸업 후 첫 직장 월평균 임금"
+              }
+            ],
+            "satisfaction": [
+              {
+                "item": "매우 불만족",
+                "data": "3.2",
+                "name": "첫 직장 만족도"
+              },
+              {
+                "item": "불만족",
+                "data": "1.9",
+                "name": "첫 직장 만족도"
+              },
+              {
+                "item": "보통",
+                "data": "26.8",
+                "name": "첫 직장 만족도"
+              },
+              {
+                "item": "만족",
+                "data": "45.9",
+                "name": "첫 직장 만족도"
+              },
+              {
+                "item": "매우 만족",
+                "data": "22.3",
+                "name": "첫 직장 만족도"
+              }
+            ],
+            "employment_rate": [
+              {
+                "item": "전체",
+                "data": "55.5",
+                "name": "취업률"
+              },
+              {
+                "item": "남",
+                "data": "57.8",
+                "name": "취업률"
+              },
+              {
+                "item": "여",
+                "data": "54",
+                "name": "취업률"
+              }
+            ],
+            "applicant": [
+              {
+                "item": "지원자",
+                "data": "17488",
+                "name": "입학상황"
+              },
+              {
+                "item": "입학자",
+                "data": "2837",
+                "name": "입학상황"
+              }
+            ]
+          }
+        ],
+        "GenCD": [
+          {
+            "popular": [
+              {
+                "GEN_NM": "남자",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              },
+              {
+                "GEN_NM": "여자",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              }
+            ]
+          },
+          {
+            "bookmark": [
+              {
+                "GEN_NM": "남자",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              },
+              {
+                "GEN_NM": "여자",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              }
+            ]
+          }
+        ],
+        "SchClass": [
+          {
+            "popular": [
+              {
+                "SCH_CLASS_NM": "중학생(14~16세 청소년)",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              },
+              {
+                "SCH_CLASS_NM": "고등학생(17~19세 청소년)",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              }
+            ]
+          },
+          {
+            "bookmark": [
+              {
+                "SCH_CLASS_NM": "중학생(14~16세 청소년)",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              },
+              {
+                "SCH_CLASS_NM": "고등학생(17~19세 청소년)",
+                "PCNT": 0.0,
+                "PCNT1": "0",
+                "PCNT2": "0"
+              }
+            ]
+          }
+        ],
+        "lstMiddleAptd": [
+          {
+            "popular": []
+          },
+          {
+            "bookmark": []
+          }
+        ],
+        "lstHighAptd": [
+          {
+            "popular": []
+          },
+          {
+            "bookmark": []
+          }
+        ],
+        "lstVals": [
+          {
+            "popular": []
+          },
+          {
+            "bookmark": []
+          }
+        ]
+      }
+    ]
+  }
+}

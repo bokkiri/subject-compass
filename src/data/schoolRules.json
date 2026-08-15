@@ -1,0 +1,20 @@
+{
+  "_comment": "학년·학기별 학생선택 이수 학점 규정. exact=true는 편제표에서 직접 확인, false는 2022 개정 표준 이수 기준(교과 174학점) 추정치. 실제 편제표로 교체 시 이 값을 갱신하세요.",
+  "_default": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 },
+  "rules": {
+    "SCH-DJ": { "electiveCredits": { "g2s1": 15, "g2s2": 19, "g3s1": 30, "g3s2": 25 }, "exact": true },
+    "SCH-CS": { "electiveCredits": { "g2s1": 12, "g2s2": 15, "g3s1": 27, "g3s2": 24 }, "exact": true },
+    "SCH-YG": { "electiveCredits": { "g2s1": 12, "g2s2": 16, "g3s1": 28, "g3s2": 24 }, "exact": true },
+    "SCH-MC": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-BJ": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-BIY": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-CA": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-BD": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-SD": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-SY": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-US": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-OS": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-WB": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false },
+    "SCH-JA": { "electiveCredits": { "g2s1": 13, "g2s2": 17, "g3s1": 28, "g3s2": 25 }, "exact": false }
+  }
+}

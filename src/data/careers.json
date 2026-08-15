@@ -1,0 +1,45 @@
+[
+  { "careerId": "CR-CSE", "careerType": "학과", "name": "컴퓨터공학과", "aliases": ["컴공", "컴퓨터공학", "소프트웨어학과", "컴퓨터과학", "정보통신공학", "IT", "전산", "인공지능", "게임"], "description": "컴퓨터와 소프트웨어의 원리를 배우는 학과예요.", "groupId": "CG-CS", "field": "공학계열" },
+  { "careerId": "CR-INDDATA", "careerType": "학과", "name": "산업데이터공학과", "aliases": ["산업공학", "데이터공학", "빅데이터", "분석", "데이터"], "description": "데이터로 산업·경영 문제를 푸는 공학이에요.", "groupId": "CG-DATA", "field": "공학계열" },
+  { "careerId": "CR-ME", "careerType": "학과", "name": "기계공학과", "aliases": ["기계", "기계공학", "메카", "자동차공학", "로봇공학", "로봇"], "description": "기계와 로봇의 설계·작동 원리를 배워요.", "groupId": "CG-ENG", "field": "공학계열" },
+  { "careerId": "CR-EE", "careerType": "학과", "name": "전자공학과", "aliases": ["전자", "전기전자", "전자공학", "전기공학", "반도체", "제어"], "description": "전기·전자 회로와 반도체 등을 배워요.", "groupId": "CG-ENG", "field": "공학계열" },
+  { "careerId": "CR-MAT", "careerType": "학과", "name": "신소재공학과", "aliases": ["신소재", "재료공학", "재료", "소재", "나노"], "description": "새로운 소재와 재료를 연구·개발해요.", "groupId": "CG-ENG", "field": "공학계열" },
+  { "careerId": "CR-CHEMENG", "careerType": "학과", "name": "화학공학과", "aliases": ["화학공학", "화공", "에너지공학", "환경공학"], "description": "화학 반응을 산업에 응용하는 공학이에요.", "groupId": "CG-ENG", "field": "공학계열" },
+  { "careerId": "CR-AERO", "careerType": "학과", "name": "항공우주공학과", "aliases": ["항공", "우주", "항공우주", "비행기", "드론"], "description": "비행기·우주선을 설계하는 공학이에요.", "groupId": "CG-ENG", "field": "공학계열" },
+  { "careerId": "CR-ARCH", "careerType": "학과", "name": "건축학과", "aliases": ["건축", "건축설계", "도시공학", "토목", "토목공학", "건축공학"], "description": "건물과 공간을 설계하는 학과예요.", "groupId": "CG-ENG", "field": "공학계열" },
+
+  { "careerId": "CR-MATH", "careerType": "학과", "name": "수학과", "aliases": ["수학", "응용수학", "수리"], "description": "수의 원리와 구조를 깊이 탐구해요.", "groupId": "CG-SCI", "field": "자연계열" },
+  { "careerId": "CR-STAT", "careerType": "학과", "name": "통계학과", "aliases": ["통계", "통계학", "데이터", "확률", "빅데이터"], "description": "데이터를 다루는 통계 이론과 방법을 배워요.", "groupId": "CG-DATA", "field": "자연계열" },
+  { "careerId": "CR-PHY", "careerType": "학과", "name": "물리학과", "aliases": ["물리", "물리학", "이론물리", "응용물리"], "description": "자연의 기본 법칙을 탐구하는 학과예요.", "groupId": "CG-SCI", "field": "자연계열" },
+  { "careerId": "CR-CHEM", "careerType": "학과", "name": "화학과", "aliases": ["화학", "분석화학", "유기화학"], "description": "물질의 구조와 변화를 연구하는 학과예요.", "groupId": "CG-SCI", "field": "자연계열" },
+  { "careerId": "CR-ASTRO", "careerType": "학과", "name": "천문학과", "aliases": ["천문", "천문학", "우주", "지구과학", "대기과학"], "description": "별과 우주, 천체 현상을 연구해요.", "groupId": "CG-SCI", "field": "자연계열" },
+  { "careerId": "CR-BIO", "careerType": "학과", "name": "생명과학과", "aliases": ["생명", "생명과학", "바이오", "생물학", "유전", "분자생물"], "description": "생명 현상을 실험으로 연구하는 학과예요.", "groupId": "CG-SCI", "field": "자연계열" },
+  { "careerId": "CR-COSMETIC", "careerType": "학과", "name": "화장품과학과", "aliases": ["화장품", "코스메틱", "뷰티", "향장"], "description": "화장품 성분과 개발을 연구해요.", "groupId": "CG-MED", "field": "자연계열" },
+
+  { "careerId": "CR-MED", "careerType": "학과", "name": "의예과", "aliases": ["의대", "의예", "의학", "의학과", "메디컬", "임상"], "description": "사람의 병을 진단·치료하는 의학을 배워요.", "groupId": "CG-MED", "field": "의약계열" },
+  { "careerId": "CR-NURSE", "careerType": "학과", "name": "간호학과", "aliases": ["간호", "간호사", "보건"], "description": "환자를 돌보는 간호 전문 지식을 배워요.", "groupId": "CG-MED", "field": "의약계열" },
+  { "careerId": "CR-PHARM", "careerType": "학과", "name": "약학과", "aliases": ["약대", "약학", "제약", "약", "신약", "제약회사"], "description": "약을 연구하고 다루는 전문 지식을 배워요.", "groupId": "CG-MED", "field": "의약계열" },
+  { "careerId": "CR-VET", "careerType": "학과", "name": "수의예과", "aliases": ["수의학", "수의대", "수의", "동물", "동물병원"], "description": "동물의 병을 진료·치료하는 수의학을 배워요.", "groupId": "CG-MED", "field": "의약계열" },
+
+  { "careerId": "CR-BIZ", "careerType": "학과", "name": "경영학과", "aliases": ["경영", "비즈니스", "MBA", "마케팅", "창업", "회계", "재무"], "description": "기업과 조직을 운영하는 방법을 배워요.", "groupId": "CG-BIZ", "field": "사회계열" },
+  { "careerId": "CR-ECON", "careerType": "학과", "name": "경제학과", "aliases": ["경제", "경제학", "거시경제", "미시경제", "금융"], "description": "돈과 시장이 움직이는 원리를 배워요.", "groupId": "CG-BIZ", "field": "사회계열" },
+  { "careerId": "CR-TRADE", "careerType": "학과", "name": "무역·국제통상학과", "aliases": ["무역", "국제통상", "통상", "물류", "국제경영", "수출입"], "description": "나라 사이의 거래와 물류를 배워요.", "groupId": "CG-BIZ", "field": "사회계열" },
+  { "careerId": "CR-PSY", "careerType": "학과", "name": "심리학과", "aliases": ["심리", "상담", "심리학", "상담사", "임상심리"], "description": "사람의 마음과 행동을 연구하는 학과예요.", "groupId": "CG-HUM", "field": "사회계열" },
+  { "careerId": "CR-SOCIAL", "careerType": "학과", "name": "사회복지·행정학과", "aliases": ["사회복지", "복지", "행정", "공무원", "사회학", "정책", "정치외교", "외교"], "description": "사회 문제를 돕고 공공을 운영하는 것을 배워요.", "groupId": "CG-HUM", "field": "사회계열" },
+  { "careerId": "CR-LAW", "careerType": "학과", "name": "법학과", "aliases": ["법", "법학", "법대", "변호사", "판사", "검사", "로스쿨"], "description": "법의 원리와 적용을 배우는 학과예요.", "groupId": "CG-HUM", "field": "사회계열" },
+  { "careerId": "CR-MEDIA", "careerType": "학과", "name": "미디어·언론학과", "aliases": ["언론", "미디어", "신문방송", "방송", "커뮤니케이션", "홍보"], "description": "미디어와 소통, 저널리즘을 배워요.", "groupId": "CG-HUM", "field": "사회계열" },
+
+  { "careerId": "CR-EDU", "careerType": "학과", "name": "교육학과", "aliases": ["교육", "교육학", "사범대", "교사", "교직", "선생님"], "description": "가르치고 배우는 원리와 교육을 연구해요.", "groupId": "CG-HUM", "field": "교육계열" },
+  { "careerId": "CR-ELEMEDU", "careerType": "학과", "name": "초등교육과", "aliases": ["초등교육", "교대", "초등교사", "초등", "선생님"], "description": "초등학교 교사를 길러내는 학과예요.", "groupId": "CG-HUM", "field": "교육계열" },
+
+  { "careerId": "CR-LANG", "careerType": "학과", "name": "외국어·통번역학과", "aliases": ["외국어", "일본어", "영어영문", "영문", "중국어", "프랑스어", "통번역", "어학", "독일어", "스페인어"], "description": "외국어와 그 나라의 문화를 배우고 통역·번역해요.", "groupId": "CG-HUM", "field": "인문계열" },
+  { "careerId": "CR-KOR", "careerType": "학과", "name": "국어국문학과", "aliases": ["국문", "국어국문", "문예창작", "문학", "국어"], "description": "우리말과 문학을 깊이 읽고 쓰는 학과예요.", "groupId": "CG-HUM", "field": "인문계열" },
+  { "careerId": "CR-HISTORY", "careerType": "학과", "name": "역사·철학과", "aliases": ["역사", "사학", "철학", "고고학", "인문학", "미학"], "description": "인류의 역사와 사상을 깊이 탐구해요.", "groupId": "CG-HUM", "field": "인문계열" },
+  { "careerId": "CR-RELIGION", "careerType": "학과", "name": "신학·종교학과", "aliases": ["종교", "신학", "종교학", "성직자", "목회"], "description": "종교와 신앙, 인간의 근본 물음을 탐구해요.", "groupId": "CG-HUM", "field": "인문계열" },
+
+  { "careerId": "CR-ART", "careerType": "학과", "name": "미술·디자인학과", "aliases": ["미술", "예술", "회화", "조소", "순수미술", "디자인", "시각디자인", "산업디자인", "큐레이터"], "description": "그림·조형·디자인으로 표현하고 창작해요.", "groupId": "CG-ART", "field": "예체능계열" },
+  { "careerId": "CR-MUSIC", "careerType": "학과", "name": "음악학과", "aliases": ["음악", "작곡", "연주", "성악", "실용음악", "국악"], "description": "음악을 연주하고 창작해요.", "groupId": "CG-ART", "field": "예체능계열" },
+  { "careerId": "CR-MEDIAART", "careerType": "학과", "name": "영상·미디어예술학과", "aliases": ["영상", "미디어아트", "애니메이션", "영화", "콘텐츠", "촬영", "편집"], "description": "영상과 디지털 콘텐츠를 기획하고 만들어요.", "groupId": "CG-ART", "field": "예체능계열" },
+  { "careerId": "CR-CHEF", "careerType": "학과", "name": "조리·외식학과", "aliases": ["조리", "요리", "요리사", "제과", "제빵", "제과제빵", "외식", "셰프", "파티시에"], "description": "요리·제과제빵 기술과 외식을 배워요.", "groupId": "CG-ART", "field": "예체능계열" },
+  { "careerId": "CR-SPORT", "careerType": "학과", "name": "체육학과", "aliases": ["체육", "스포츠", "운동", "스포츠과학", "재활", "트레이너"], "description": "운동과 스포츠, 몸의 움직임을 배워요.", "groupId": "CG-ART", "field": "예체능계열" }
+]
