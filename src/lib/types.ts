@@ -268,7 +268,7 @@ export interface StudentSession {
 
 /** 나침반 이벤트 참여 1건(코드 1개당) */
 export interface RaffleAttempt {
-  branch?: 'mid' | 'high';
+  branch?: 'mid' | 'high' | 'lecture';
   /** 중학생 퀴즈 O/X 답안 (true=O, false=X) */
   answers?: (boolean | undefined)[];
   result?: 'win' | 'lose';

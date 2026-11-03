@@ -1,9 +1,18 @@
 // 나침반 숨은 이벤트 모달.
-// 흐름: 졸업장 코드 게이트 → 중/고 선택 → (중)퀴즈 O/X 5문제 / (고)30% 뽑기 → 결과(1회 고정)
+// 흐름: 졸업장 코드 게이트 → 중/고(/특강) 선택 → (중)퀴즈 O/X 5문제 / (고)30%·(특강)5% 뽑기 → 결과(1회 고정)
+// 주소에 ?lecture 가 있으면 특강 버튼만, 없으면 중/고 버튼만 보인다.
 import { useEffect, useState } from 'react';
 import { useSession } from '../context';
 import type { RaffleAttempt } from '../lib/types';
-import { QUIZ, gradeQuiz, isAdminCode, isHighWin, isValidCode } from '../lib/raffle';
+import {
+  QUIZ,
+  gradeQuiz,
+  isAdminCode,
+  isHighWin,
+  isLectureMode,
+  isLectureWin,
+  isValidCode,
+} from '../lib/raffle';
 
 type View = 'gate' | 'branch' | 'quiz' | 'drawing' | 'result';
 
@@ -67,10 +76,9 @@ export function RaffleEvent({ open, onClose }: { open: boolean; onClose: () => v
     else setView('branch');
   }
 
-  function pickHigh() {
-    const win = isHighWin(enteredCode);
+  function draw(branch: 'high' | 'lecture', win: boolean) {
     // 결과는 미리 정해 저장하되, 화면은 두근두근 연출 후 공개
-    saveAttempt(enteredCode, { branch: 'high', result: win ? 'win' : 'lose' });
+    saveAttempt(enteredCode, { branch, result: win ? 'win' : 'lose' });
     setView('drawing');
   }
 
@@ -128,12 +136,26 @@ export function RaffleEvent({ open, onClose }: { open: boolean; onClose: () => v
           <>
             <h3 className="raffle-title">너는 누구야?</h3>
             <div className="raffle-choices">
-              <button className="raffle-choice" onClick={pickMid}>
-                중학생
-              </button>
-              <button className="raffle-choice" onClick={pickHigh}>
-                고등학생
-              </button>
+              {isLectureMode() ? (
+                <button
+                  className="raffle-choice"
+                  onClick={() => draw('lecture', isLectureWin(enteredCode))}
+                >
+                  🎤 특강 참가자
+                </button>
+              ) : (
+                <>
+                  <button className="raffle-choice" onClick={pickMid}>
+                    중학생
+                  </button>
+                  <button
+                    className="raffle-choice"
+                    onClick={() => draw('high', isHighWin(enteredCode))}
+                  >
+                    고등학생
+                  </button>
+                </>
+              )}
             </div>
           </>
         )}
@@ -178,7 +200,9 @@ export function RaffleEvent({ open, onClose }: { open: boolean; onClose: () => v
             <h3 className="raffle-title">{win ? '당첨!' : '아쉽지만 꽝!'}</h3>
             <p className="raffle-sub">
               {win
-                ? '축하해요! 이 화면을 선생님께 보여주세요.'
+                ? attempt?.branch === 'lecture'
+                  ? '축하해요! 이 화면을 높이 들어 보여주세요 🙌'
+                  : '축하해요! 이 화면을 선생님께 보여주세요.'
                 : '다음 기회에! 참여해 줘서 고마워요.'}
             </p>
             <button className="btn btn-primary btn-block" onClick={onClose}>

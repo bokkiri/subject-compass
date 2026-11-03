@@ -60,6 +60,19 @@ export function isHighWin(code: string): boolean {
   return hash32('H:' + code) % 1000 < 300;
 }
 
+/** 특강용 당첨 확률(%) — 바꾸려면 이 값만 수정 */
+export const LECTURE_WIN_PERCENT = 5;
+
+/** 특강 뽑기: 코드로부터 결정적 당첨 (같은 코드는 항상 같은 결과) */
+export function isLectureWin(code: string): boolean {
+  return hash32('L:' + code) % 100 < LECTURE_WIN_PERCENT;
+}
+
+/** 특강 모드: 주소에 ?lecture 가 있을 때만 특강 버튼 노출 (강의 전까지 숨김) */
+export function isLectureMode(): boolean {
+  return typeof location !== 'undefined' && new URLSearchParams(location.search).has('lecture');
+}
+
 export interface QuizQ {
   q: string;
   /** 정답: true = O(맞음), false = X(틀림) */
