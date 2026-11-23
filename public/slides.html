@@ -55,6 +55,12 @@ h2 { font-size: 64px; margin-bottom: 26px; }
 .b-k { background: var(--k); color: var(--w); }
 .b-o { background: var(--o); color: var(--k); }
 .b-w { background: var(--w); color: var(--k); box-shadow: inset 0 0 0 3px var(--k); }
+/* 3·4번 슬라이드: 큰 번호 + 두 줄 제목으로 세 타일 높이 맞춤 */
+.blocks.tall .no { font-size: 76px; letter-spacing: -.04em; line-height: 1; -webkit-text-stroke: 1.4px currentColor; }
+.blocks.tall .b-k .no { color: var(--o); }
+.blocks.tall h3 { font-size: 50px; line-height: 1.18; letter-spacing: -.04em; margin-bottom: 22px; padding-top: 24px; }
+.blocks.tall p { font-size: 24px; line-height: 1.6; }
+.nw { white-space: nowrap; }
 .b-k p { color: #cfcfcf; } .b-o p { color: #1d1d1d; } .b-w p { color: #3d3d3d; }
 
 /* 단계 목록: 굵은 주황 숫자 */
@@ -188,13 +194,13 @@ h2 { font-size: 64px; margin-bottom: 26px; }
 <section class="slide" data-theme="light">
   <div class="cap">PART 01 — 문제</div>
   <h2>고교학점제, 이제 과목은 <span class="o">학생이 고릅니다</span></h2>
-  <div class="blocks">
-    <div class="blk b-k"><span class="no">01</span><h3>2025년 전면 시행</h3>
-      <p>전국 모든 고등학교에서 학생이 진로·적성에 따라 과목을 직접 선택합니다.</p></div>
-    <div class="blk b-o"><span class="no">02</span><h3>1학년 공통 → 2·3학년 선택</h3>
-      <p>2·3학년 선택과목은 일반·진로·융합 선택으로 나뉘고, 학교마다 개설 과목이 다릅니다.</p></div>
-    <div class="blk b-w"><span class="no">03</span><h3>과목에도 순서가 있다</h3>
-      <p>대수 → 미적분Ⅰ → 미적분Ⅱ처럼, 먼저 들어야 하는 과목(선수과목)이 있습니다.</p></div>
+  <div class="blocks tall">
+    <div class="blk b-k"><span class="no">01</span><h3>2025년<br>전면 시행</h3>
+      <p>전국 모든 고등학교에서<br>학생이 진로·적성에 따라<br>과목을 직접 선택합니다.</p></div>
+    <div class="blk b-o"><span class="no">02</span><h3>1학년 공통 →<br>2·3학년 선택</h3>
+      <p>2·3학년 선택과목은<br>일반·진로·융합으로 나뉘고,<br>학교마다 개설 과목이 다릅니다.</p></div>
+    <div class="blk b-w"><span class="no">03</span><h3>과목에도<br>순서가 있다</h3>
+      <p><span class="nw">대수 → 미적분Ⅰ → 미적분Ⅱ</span>처럼<br>먼저 들어야 하는 과목,<br>선수과목이 있습니다.</p></div>
   </div>
 </section>
 
@@ -202,13 +208,13 @@ h2 { font-size: 64px; margin-bottom: 26px; }
 <section class="slide" data-theme="dark">
   <div class="cap">PART 01 — 문제</div>
   <h2>학생들에게 편제표는 <span class="o"><span class="paren">(</span>암호문<span class="paren">)</span></span></h2>
-  <div class="blocks">
-    <div class="blk b-w"><span class="no">01</span><h3>학교마다 다른 편제표</h3>
-      <p>같은 과목도 학교마다 개설 학기와 선택군이 다릅니다.</p></div>
-    <div class="blk b-o"><span class="no">02</span><h3>권장과목은 대학 자료집에</h3>
-      <p>진로별 권장과목(대교협 2028 자료집)을 학생이 직접 찾아 읽기는 어렵습니다.</p></div>
-    <div class="blk b-w"><span class="no">03</span><h3>순서를 놓치면 꼬인다</h3>
-      <p>선수과목을 모르고 고르면, 정작 원하는 과목을 못 들을 수 있습니다.</p></div>
+  <div class="blocks tall">
+    <div class="blk b-w"><span class="no">01</span><h3>학교마다<br>다른 편제표</h3>
+      <p>같은 과목이라도<br>학교마다 개설 학기와<br>선택군이 다릅니다.</p></div>
+    <div class="blk b-o"><span class="no">02</span><h3>권장과목은<br>대학 자료집에</h3>
+      <p>진로별 권장과목은<br>대교협 2028 자료집에 있어<br>학생이 직접 찾기 어렵습니다.</p></div>
+    <div class="blk b-w"><span class="no">03</span><h3>순서를 놓치면<br>꼬인다</h3>
+      <p>선수과목을 모르고 고르면,<br>정작 원하는 과목을<br>못 들을 수 있습니다.</p></div>
   </div>
   <p class="lead" style="margin-top:44px">→ 그래서, 학생이 <b class="o">입학부터 졸업까지 미리 걸어 볼 수 있는 도구</b>가 필요했습니다.</p>
 </section>
